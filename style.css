@@ -334,7 +334,12 @@ body, div[part] > div.block:first-child, select {
   border-color: #282828 !important;
 }
 
-tspan, .dropCap, .note, #line, .staffLine, .small-screen, .btn-default, select, a:not([href]), a:not([href]):hover, #rect {
+tspan, .dropCap, .note, #line, .staffLine, .small-screen, .btn-default, select, a:not([href]), a:not([href]):hover, .neumeLine, .dividerLine,  {
   color: bisque !important;
   fill: bisque !important;
+}
+
+.rubric {
+  color: #e32121 !important;
+  fill: #e32121 !important;
 }
