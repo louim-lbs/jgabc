@@ -316,3 +316,23 @@ span.start-pitch {
     right: 0em;
   }
 }
+
+/* Modifications for dark theme */
+
+body, div[part] > div.block:first-child, select {
+  background-color: #282828 !important;
+}
+
+.btn-default {
+  background-color: #3b3b3b !important;
+  border-color: #282828 !important;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+  background-color: #3b3b3b !important;
+  border-color: #282828 !important;
+}
+
+tspan, .dropCap, .note, #line {
+  color: #c3c3c3 !important;
+}
