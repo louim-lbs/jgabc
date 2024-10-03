@@ -337,9 +337,4 @@ body, div[part] > div.block:first-child, select {
 tspan, .dropCap, .note, #line, .staffLine, .small-screen, .btn-default, select, a:not([href]), a:not([href]):hover {
   color: bisque !important;
   fill: bisque !important;
-
-:root {
-  --body-fg: bisque !important;
-  --body-bg: #282828 !important;
 }
-
