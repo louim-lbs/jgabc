@@ -336,3 +336,7 @@ body, div[part] > div.block:first-child, select {
 tspan, .dropCap, .note, #line {
   color: #c3c3c3 !important;
 }
+
+:root {
+  @body-bg: background-color: #282828 !important;
+}
