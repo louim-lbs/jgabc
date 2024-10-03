@@ -344,3 +344,7 @@ tspan, .dropCap, .note, #line, .staffLine, .small-screen, .btn-default, select, 
   color: #e32121 !important;
   fill: #e32121 !important;
 }
+
+#selStyle {
+  border-radius: 5px !important;
+}
