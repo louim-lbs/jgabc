@@ -321,6 +321,7 @@ span.start-pitch {
 
 body, div[part] > div.block:first-child, select {
   background-color: #282828 !important;
+  fill: #bfbfbf !important;
 }
 
 .btn-default {
