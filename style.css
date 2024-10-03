@@ -334,12 +334,13 @@ body, div[part] > div.block:first-child, select {
   border-color: #282828 !important;
 }
 
-tspan, .dropCap, .note, #line {
+tspan, .dropCap, .note, #line, .staffLine, .small-screen, .btn-default, select, a:not([href]), a:not([href]):hover {
   color: var(--body-fg) !important;
   fill: var(--body-fg) !important;
 
 :root {
-  --body-fg: #c3c3c3 !important;
+  --body-fg: bisque !important;
   --body-bg: #282828 !important;
+  --border-color: 
 }
 
