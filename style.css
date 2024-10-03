@@ -334,7 +334,7 @@ body, div[part] > div.block:first-child, select {
   border-color: #282828 !important;
 }
 
-tspan, .dropCap, .note, #line, .staffLine, .small-screen, .btn-default, select, a:not([href]), a:not([href]):hover {
+tspan, .dropCap, .note, #line, .staffLine, .small-screen, .btn-default, select, a:not([href]), a:not([href]):hover, #rect {
   color: bisque !important;
   fill: bisque !important;
 }
