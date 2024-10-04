@@ -329,7 +329,7 @@ body, div[part] > div.block:first-child, select {
   border-color: #282828 !important;
 }
 
-.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default, .block {
   background-color: #3b3b3b !important;
   border-color: #282828 !important;
 }
@@ -340,16 +340,18 @@ a, tspan, span, .btn-primary, .dropCap, .note, .small-screen, .btn-default, sele
   --darkreader-inline-fill: bisque !important;
   --darkreader-inline-stroke: bisque !important;
   accent-color: bisque !important;
+  background-color: #282828 !important;
 }
 
 }
 
-#line, .staffLine, staffLine, line.staffLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label, .a.toggleShowGabc.hide-ss, #dropdown-menu-include {
+#line, line, .line, .staffLine, staffLine, line.staffLine, .dividerLine, cbVersesAdLibitum, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label, .a.toggleShowGabc.hide-ss, #dropdown-menu-include {
   color: #a99987 !important;
   fill: #a99987 !important;
   stroke: #a99987 !important;
   --darkreader-inline-fill: #a99987 !important;
   --darkreader-inline-stroke: #a99987 !important;
+  background-color: #282828 !important;
 }
 
 .rubric, .commentary, .lectio-reference {
