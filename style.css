@@ -329,8 +329,12 @@ body, div[part] > div.block:first-child, select {
   border-color: #282828 !important;
 }
 
-.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default, .block {
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
   background-color: #3b3b3b !important;
+  border-color: #282828 !important;
+}
+
+.hide-print.block {
   border-color: #282828 !important;
 }
 
