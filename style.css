@@ -344,7 +344,7 @@ a, tspan, span, .btn-primary, .dropCap, .note, .small-screen, .btn-default, sele
 
 }
 
-#line, .staffLine, staffLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label, .toggleShowGabc.hide-ss {
+#line, .staffLine, staffLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label, .a.toggleShowGabc.hide-ss {
   color: #a99987 !important;
   fill: #a99987 !important;
   stroke: #a99987 !important;
