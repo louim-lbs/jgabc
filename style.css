@@ -334,7 +334,7 @@ body, div[part] > div.block:first-child, select {
   border-color: #282828 !important;
 }
 
-a, tspan, span, .dropCap, .note, .small-screen, .btn-default, select, input, a:not([href]), a:not([href]):hover, label, .neumeLine, use, ul, .horizontalEpisema, txtPsalmVerses, .sel-custom.ui-autocomplete-input {
+a, tspan, span, .dropCap, .note, .small-screen, .btn-default, select, input, a:not([href]), a:not([href]):hover, label, .neumeLine, use, ul, .horizontalEpisema, txtPsalmVerses, .sel-custom.ui-autocomplete-input, sel-custom ui-autocomplete-input, .dropdown-menu, .dropdown-menu-right, .dropdown-paper-size {
   color: bisque !important;
   fill: bisque !important;
   --darkreader-inline-fill: bisque !important;
@@ -344,7 +344,7 @@ a, tspan, span, .dropCap, .note, .small-screen, .btn-default, select, input, a:n
 
 }
 
-#line, .staffLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label {
+#line, .staffLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label, .toggleShowGabc.hide-ss {
   color: #a99987 !important;
   fill: #a99987 !important;
   stroke: #a99987 !important;
@@ -361,7 +361,7 @@ select, input {
   border-radius: 5px !important;
 }
 
-.nav-pills>li.active>a {
+.nav-pills>li.active>a, btn btn-xs btn-primary {
   color: bisque !important;
   background-color: #233749 !important;
 }
