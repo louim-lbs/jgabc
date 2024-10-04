@@ -284,7 +284,7 @@ syl.bold {
 }
 
 .lectio-reference {
-  color: #d00!important;
+  color: #d00;
   font-family: 'Crimson Text';
   font-size: 14pt;
   font-style: italic;
