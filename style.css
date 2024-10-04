@@ -334,7 +334,7 @@ body, div[part] > div.block:first-child, select {
   border-color: #282828 !important;
 }
 
-a, tspan, span, .btn-primary, .dropCap, .note, .small-screen, .btn-default, select, input, a:not([href]), a:not([href]):hover, label, .neumeLine, use, ul, .horizontalEpisema, txtPsalmVerses, .sel-custom.ui-autocomplete-input, sel-custom ui-autocomplete-input, .dropdown-menu, .dropdown-menu-right, .dropdown-paper-size {
+a, tspan, span, .btn-primary, .dropCap, .note, .small-screen, .btn-default, select, input, a:not([href]), a:not([href]):hover, label, .neumeLine, use, ul, .horizontalEpisema, txtPsalmVerses, .sel-custom.ui-autocomplete-input, sel-custom ui-autocomplete-input, .dropdown-menu, .dropdown-menu-right, .dropdown-paper-size, .dropdown-menu.dropdown-menu-right.dropdown-paper-size {
   color: bisque !important;
   fill: bisque !important;
   --darkreader-inline-fill: bisque !important;
@@ -344,7 +344,7 @@ a, tspan, span, .btn-primary, .dropCap, .note, .small-screen, .btn-default, sele
 
 }
 
-#line, .staffLine, staffLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label, .a.toggleShowGabc.hide-ss {
+#line, .staffLine, staffLine, line.staffLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label, .a.toggleShowGabc.hide-ss, #dropdown-menu-include {
   color: #a99987 !important;
   fill: #a99987 !important;
   stroke: #a99987 !important;
@@ -364,6 +364,10 @@ select, input {
 .nav-pills>li.active>a, .btn-primary {
   color: bisque !important;
   background-color: #233749 !important;
+}
+
+.btn-primary {
+  border-color: #233749 !important;
 }
 
 .nav>li>a:focus, .nav>li>a:hover  {
