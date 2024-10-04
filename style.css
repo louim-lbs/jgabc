@@ -334,11 +334,14 @@ body, div[part] > div.block:first-child, select {
   border-color: #282828 !important;
 }
 
-tspan, span, .dropCap, .note, .small-screen, .btn-default, select, input, a:not([href]), a:not([href]):hover, label, .neumeLine, use, ul, .horizontalEpisema {
+a, tspan, span, .dropCap, .note, .small-screen, .btn-default, select, input, a:not([href]), a:not([href]):hover, label, .neumeLine, use, ul, .horizontalEpisema, txtPsalmVerses, .sel-custom.ui-autocomplete-input {
   color: bisque !important;
   fill: bisque !important;
   --darkreader-inline-fill: bisque !important;
   --darkreader-inline-stroke: bisque !important;
+  accent-color: bisque !important;
+}
+
 }
 
 #line, .staffLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label {
@@ -354,6 +357,16 @@ tspan, span, .dropCap, .note, .small-screen, .btn-default, select, input, a:not(
   fill: #ed4444 !important;
 }
 
-select {
+select, input {
   border-radius: 5px !important;
+}
+
+.nav-pills>li.active>a {
+  color: bisque !important;
+  background-color: #233749 !important;
+}
+
+.nav>li>a:focus, .nav>li>a:hover  {
+  color: bisque !important;
+  background-color: #5b5a54 !important;
 }
