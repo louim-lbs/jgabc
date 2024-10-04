@@ -334,14 +334,14 @@ body, div[part] > div.block:first-child, select {
   border-color: #282828 !important;
 }
 
-tspan, span, .dropCap, .note, .small-screen, .btn-default, select, input, a:not([href]), a:not([href]):hover, label, .neumeLine, use, ul {
+tspan, span, .dropCap, .note, .small-screen, .btn-default, select, input, a:not([href]), a:not([href]):hover, label, .neumeLine, use, ul, .horizontalEpisema {
   color: bisque !important;
   fill: bisque !important;
   --darkreader-inline-fill: bisque !important;
   --darkreader-inline-stroke: bisque !important;
 }
 
-#line, .staffLine, .neumeLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label {
+#line, .staffLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label {
   color: #a99987 !important;
   fill: #a99987 !important;
   stroke: #a99987 !important;
@@ -349,9 +349,9 @@ tspan, span, .dropCap, .note, .small-screen, .btn-default, select, input, a:not(
   --darkreader-inline-stroke: #a99987 !important;
 }
 
-.rubric, .commentary {
-  color: #e12e2e !important;
-  fill: #e12e2e !important;
+.rubric, .commentary, .lectio-reference {
+  color: #ed4444 !important;
+  fill: #ed4444 !important;
 }
 
 select {
