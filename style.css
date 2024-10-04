@@ -334,12 +334,20 @@ body, div[part] > div.block:first-child, select {
   border-color: #282828 !important;
 }
 
-tspan, .dropCap, .note, #line, .staffLine, .small-screen, .btn-default, select, a:not([href]), a:not([href]):hover, .neumeLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine {
+tspan, .dropCap, .note, .small-screen, .btn-default, select, a:not([href]), a:not([href]):hover, label, .sel-label {
   color: bisque !important;
   fill: bisque !important;
   stroke: bisque !important;
   --darkreader-inline-fill: bisque !important;
   --darkreader-inline-stroke: bisque !important;
+}
+
+#line, .staffLine, .neumeLine, .dividerLine, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine {
+  color: #a99987 !important;
+  fill: #a99987 !important;
+  stroke: #a99987 !important;
+  --darkreader-inline-fill: #a99987 !important;
+  --darkreader-inline-stroke: #a99987 !important;
 }
 
 .rubric, .commentary {
