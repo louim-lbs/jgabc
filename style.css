@@ -334,7 +334,7 @@ body, div[part] > div.block:first-child, select {
   border-color: #282828 !important;
 }
 
-tspan, .dropCap, .note, .small-screen, .btn-default, select, a:not([href]), a:not([href]):hover, label, .neumeLine, use {
+tspan, span, .dropCap, .note, .small-screen, .btn-default, select, input, a:not([href]), a:not([href]):hover, label, .neumeLine, use, ul {
   color: bisque !important;
   fill: bisque !important;
   --darkreader-inline-fill: bisque !important;
