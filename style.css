@@ -362,7 +362,7 @@ rect.dividerLine {
   fill: #a99987 !important;
 }
 
-.rubric, .commentary, .lectio-reference, .directive.lyric, .annotation, .asperges-verses .versiculum, .versiculum, .rubric.hide-print {
+.rubric, .commentary, .lectio-reference, .directive.lyric, .annotation, .asperges-verses.versiculum, .versiculum, .rubric.hide-print {
   color: #df4f4f !important;
   fill: #df4f4f !important;
 }
