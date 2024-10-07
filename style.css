@@ -358,6 +358,10 @@ a, tspan, .btn-primary, .dropCap, .note, .small-screen, .btn-default, select, in
   background-color: #282828 !important;
 }
 
+rect.dividerLine {
+  fill: #a99987 !important;
+}
+
 .rubric, .commentary, .lectio-reference {
   color: #df4f4f !important;
   fill: #df4f4f !important;
