@@ -88,17 +88,17 @@ textarea {
   text-align: justify;
 }
 .red {
-  color: #d00!important;
+  color: #d00;
 }
 .asperges-verses .versiculum {
   font-size: 120%;
-  color: #d00!important;
+  color: #d00;
   line-height: 0;
 }
 .asperges-verses .rubric {
   font-size: inherit;
   font-style: italic;
-  color: #d00!important;
+  color: #d00;
 }
 .chant-title {
   text-align: center;
