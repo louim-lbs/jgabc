@@ -349,7 +349,7 @@ a, tspan, span, .btn-primary, .dropCap, .note, .small-screen, .btn-default, sele
 
 }
 
-#line, line, .line, .staffLine, staffLine, line.staffLine, .dividerLine, cbVersesAdLibitum, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label, .a.toggleShowGabc.hide-ss, #dropdown-menu-include {
+#line, line, .line, .staffLine, staffLine, line.staffLine, rect.dividerLine, cbVersesAdLibitum, chantLine ChantNotationElement.e directive.lyric Notations rect.dividerLine, chantLine staffLines staffLine, .sel-label, .a.toggleShowGabc.hide-ss, #dropdown-menu-include {
   color: #a99987 !important;
   fill: #a99987 !important;
   stroke: #a99987 !important;
@@ -359,8 +359,8 @@ a, tspan, span, .btn-primary, .dropCap, .note, .small-screen, .btn-default, sele
 }
 
 .rubric, .commentary, .lectio-reference {
-  color: #ed4444 !important;
-  fill: #ed4444 !important;
+  color: #df4f4f !important;
+  fill: #df4f4f !important;
 }
 
 select, input {
