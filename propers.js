@@ -577,7 +577,7 @@ $(function(){
         });
         if(capTruePart) {
           $('#lbl'+capPart+'>a,#include'+capPart+'>span.lbl').text(capTruePart + (partIndex? ' '+partIndex : ''));
-          $('#selStyle'+capPart+' option[value=full]').text('Full ' + capTruePart);
+          $('#selStyle'+capPart+' option[value=full]').text(capTruePart + ' entier');
         }
         var romanMode = romanNumeral[header.mode];
         var annotation = partAbbrev[truePart] || partAbbrev[(header.officePart||'').toLowerCase()];
@@ -686,8 +686,8 @@ $(function(){
       </span>\
       <span class="child-main">\
         <select id="selStyleGraduale$num" class="sel-style">\
-          <option value="full">Full Gradual</option>\
-          <option value="psalm-tone">Psalm Toned</option>\
+          <option value="full">Graduel entier</option>\
+          <option value="psalm-tone">Psalmodié</option>\
         </select>\
       </span>\
     </div>\
