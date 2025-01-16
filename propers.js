@@ -1195,7 +1195,7 @@ $(function(){
           selectVal = $select.val(),
           selectedPart = ordinary[part] || [],
           adLibPart = ordinaryAdLib[part] || [],
-          optionNone = $('<option></option>').val('no').text('No ' + capPart);
+          optionNone = $('<option></option>').val('no').text('Pas de ' + capPart);
       if(selectedPart.constructor != [].constructor) {
         selectedPart = [selectedPart];
       }
@@ -2007,7 +2007,7 @@ $(function(){
     var tone = getIntroitTone(part);
     if(!tone) return;
     var lastDoubleBar = gabc.lastIndexOf('(::)');
-    if(lastDoubleBar < 0) throw "no double bar found in gabc: " + gabc;
+    if(lastDoubleBar < 0) throw "Pas de double barre trouvée dans gabc: " + gabc;
     lastDoubleBar += 4;
     var verse = "Miserére mei Deus,\nsecúndum magnam misericórdiam tuam.".split('\n');
     return gabc.slice(0,lastDoubleBar) + '<i>Ps.~50.</i> ' + applyLiquescents(applyPsalmTone({
