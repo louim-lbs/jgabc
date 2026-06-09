@@ -1,0 +1,403 @@
+:root {
+  --ui-bg: #161615;
+  --ui-bg-soft: #1c1b1a;
+  --ui-surface: rgba(31, 30, 29, 0.84);
+  --ui-surface-strong: rgba(39, 38, 36, 0.94);
+  --ui-border: rgba(239, 224, 205, 0.24);
+  --ui-border-strong: rgba(239, 224, 205, 0.36);
+  --ui-text: #f3e6d4;
+  --ui-text-muted: #c9b9a6;
+  --ui-text-soft: #e9d8c3;
+  --ui-red: #d64a48;
+  --ui-red-soft: #b94a43;
+  --ui-accent: #df3f42;
+  --ui-hover: rgba(243, 230, 212, 0.08);
+  --ui-focus: rgba(214, 74, 72, 0.38);
+  --ui-control-radius: 8px;
+  --ui-font-display: "Crimson Text", Georgia, serif;
+  --ui-font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color-scheme: dark;
+}
+
+html {
+  background: var(--ui-bg);
+}
+
+body.sans {
+  max-width: 760px;
+  min-height: 100vh;
+  margin: 0 auto !important;
+  padding: 18px 14px 88px !important;
+  color: var(--ui-text);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.018), rgba(255, 255, 255, 0) 34%),
+    repeating-linear-gradient(92deg, rgba(255, 255, 255, 0.018) 0 1px, transparent 1px 7px),
+    var(--ui-bg);
+  font-family: var(--ui-font-sans);
+  letter-spacing: 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0) 28%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.36), rgba(0, 0, 0, 0));
+}
+
+a,
+a:not([href]),
+a:not([href]):hover {
+  color: var(--ui-text);
+}
+
+a:hover,
+a:focus {
+  color: #fff7eb;
+}
+
+.hide-print.ss-border-bottom,
+.hide-print:first-of-type {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--ui-border);
+}
+
+.nav.nav-pills {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 10px;
+}
+
+.nav-pills > li {
+  float: none;
+}
+
+.nav-pills > li > a {
+  padding: 7px 11px;
+  border: 1px solid transparent;
+  border-radius: var(--ui-control-radius);
+  color: var(--ui-text-muted);
+  background: transparent;
+}
+
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+  color: var(--ui-text);
+  background: var(--ui-hover);
+  border-color: var(--ui-border);
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: var(--ui-red);
+  background: rgba(214, 74, 72, 0.12);
+  border-color: rgba(214, 74, 72, 0.3);
+}
+
+label {
+  color: var(--ui-text-soft);
+}
+
+select,
+input[type="text"],
+textarea,
+.psalm-editor {
+  width: auto;
+  min-height: 38px;
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-control-radius);
+  color: var(--ui-text);
+  background-color: var(--ui-surface);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035);
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 7px 36px 7px 12px;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--ui-text) 50%),
+    linear-gradient(135deg, var(--ui-text) 50%, transparent 50%);
+  background-position:
+    calc(100% - 18px) 52%,
+    calc(100% - 12px) 52%;
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+}
+
+select.small-screen,
+.child-main select,
+.child-other select,
+.selectShowLectionem {
+  max-width: 100%;
+}
+
+select:focus,
+input[type="text"]:focus,
+textarea:focus,
+.btn:focus {
+  border-color: var(--ui-red);
+  outline: 0;
+  box-shadow: 0 0 0 3px var(--ui-focus);
+}
+
+select[disabled],
+.disabled > a,
+.dropdown-menu > .disabled > a {
+  color: rgba(243, 230, 212, 0.36) !important;
+}
+
+option {
+  color: var(--ui-text);
+  background: #201f1e;
+}
+
+.btn {
+  border-radius: var(--ui-control-radius);
+  border-color: var(--ui-border);
+  color: var(--ui-text);
+  background: var(--ui-surface);
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.btn:hover,
+.btn:focus,
+.btn-default.active,
+.btn-default:active {
+  color: #fff7eb;
+  background: var(--ui-surface-strong);
+  border-color: var(--ui-border-strong);
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-danger,
+.btn-danger:hover,
+.btn-danger:focus {
+  color: #fff8f0;
+  background: var(--ui-accent);
+  border-color: var(--ui-accent);
+}
+
+.dropdown-menu {
+  padding: 6px;
+  border: 1px solid var(--ui-border);
+  border-radius: var(--ui-control-radius);
+  background: #22211f;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+.dropdown-menu > li > a {
+  border-radius: 6px;
+  color: var(--ui-text);
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #fff7eb;
+  background: var(--ui-hover);
+}
+
+.centered-heading {
+  color: var(--ui-text-muted);
+}
+
+hr {
+  border-color: var(--ui-border);
+}
+
+div[part] {
+  margin-top: 12px;
+}
+
+div[part] > div.block:first-child,
+.sticky {
+  background: linear-gradient(180deg, rgba(22, 22, 21, 0.96), rgba(22, 22, 21, 0.88));
+  border-bottom: 1px solid var(--ui-border);
+  backdrop-filter: blur(10px);
+}
+
+[part] label a,
+.chant-title,
+.commentary,
+.verses,
+.asperges-verses,
+.lectio-text {
+  font-family: var(--ui-font-display);
+}
+
+.chant-title,
+.verses,
+.asperges-verses,
+.lectio-text,
+.rubric .quote {
+  color: var(--ui-text) !important;
+}
+
+.commentary,
+.rubric,
+.red,
+.lectio-reference,
+.verses .versiculum,
+.verses > p > span.versenum,
+.asperges-verses .versiculum,
+.asperges-verses .rubric,
+button.toggle-mediant,
+text.aboveLinesText {
+  color: var(--ui-red) !important;
+  fill: var(--ui-red) !important;
+}
+
+.preview-container {
+  color: var(--ui-text);
+}
+
+.chant-preview {
+  color: var(--ui-text);
+}
+
+.chant-preview svg,
+svg.ChantScore {
+  color: var(--ui-text);
+  fill: var(--ui-text);
+}
+
+.chant-preview svg text,
+svg.ChantScore text {
+  fill: var(--ui-text);
+}
+
+.chant-preview svg .glyph,
+.chant-preview svg .neumeLine,
+.chant-preview svg .neumeBeam,
+svg.ChantScore .glyph,
+svg.ChantScore .neumeLine,
+svg.ChantScore .neumeBeam {
+  fill: var(--ui-text) !important;
+  stroke: var(--ui-text) !important;
+}
+
+.chant-preview svg .staffLine,
+.chant-preview svg .staffLines,
+.chant-preview svg .ledgerLine,
+.chant-preview svg .horizontalEpisema,
+.chant-preview svg .dividerLine,
+svg.ChantScore .staffLine,
+svg.ChantScore .staffLines,
+svg.ChantScore .ledgerLine,
+svg.ChantScore .horizontalEpisema,
+svg.ChantScore .dividerLine {
+  fill: var(--ui-red-soft) !important;
+  stroke: var(--ui-red-soft) !important;
+}
+
+.chant-preview svg .Annotation,
+.chant-preview svg .annotation,
+.chant-preview svg .Rubric,
+.chant-preview svg .rubric,
+.chant-preview svg .AboveLinesText,
+.chant-preview svg .aboveLinesText,
+.chant-preview svg [style*="fill:#f00"],
+.chant-preview svg [style*="fill: #f00"],
+svg.ChantScore .Annotation,
+svg.ChantScore .annotation,
+svg.ChantScore .Rubric,
+svg.ChantScore .rubric,
+svg.ChantScore .AboveLinesText,
+svg.ChantScore .aboveLinesText,
+svg.ChantScore .horizontalEpisema,
+svg.ChantScore [style*="fill:#f00"],
+svg.ChantScore [style*="fill: #f00"] {
+  fill: var(--ui-red) !important;
+  color: var(--ui-red) !important;
+}
+
+.chant-preview svg path,
+.chant-preview svg use,
+.chant-preview svg line,
+.chant-preview svg rect,
+svg.ChantScore path,
+svg.ChantScore use,
+svg.ChantScore line,
+svg.ChantScore rect {
+  color: inherit;
+}
+
+.show-gabc .chant-parent {
+  border-color: var(--ui-border);
+  border-radius: var(--ui-control-radius);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  min-height: 160px;
+  padding: 10px;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+}
+
+#mediaControls {
+  height: 56px;
+  background: rgba(38, 37, 35, 0.92);
+  border-top: 1px solid var(--ui-border);
+  backdrop-filter: blur(12px);
+}
+
+.selected,
+tspan.selectable:hover,
+text.dropCap:hover {
+  fill: var(--ui-red) !important;
+}
+
+[part].show-gabc use[source-index]:hover,
+#chant-preview.clickable use[source-index]:hover,
+use[source-index].active,
+[part].show-gabc text[source-index]:hover,
+#chant-preview.clickable text[source-index]:hover,
+text[source-index].active {
+  fill: #f06a67 !important;
+  filter: url(#note-glow);
+}
+
+@media screen and (max-width: 768px) {
+  body.sans {
+    padding: 12px 12px 84px !important;
+  }
+
+  .hide-print:first-of-type {
+    margin: -2px -4px 10px;
+  }
+
+  select.small-screen,
+  select,
+  input[type="text"],
+  .btn {
+    min-height: 44px;
+    font-size: 16px !important;
+  }
+
+  .flex > .child-main,
+  .flex > .child-other {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media print {
+  body.sans {
+    max-width: none;
+    padding: 0 !important;
+    color: #000;
+    background: #fff;
+  }
+
+  body::before {
+    display: none;
+  }
+}

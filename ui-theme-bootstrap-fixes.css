@@ -1,0 +1,22 @@
+/* Bootstrap 3 overrides kept separate from the editable color system in ui-theme.css. */
+
+.btn-default {
+  background-image: none;
+}
+
+.btn-primary,
+.btn-danger {
+  background-image: none;
+}
+
+.nav > li > a {
+  text-shadow: none;
+}
+
+.dropdown-menu {
+  background-clip: padding-box;
+}
+
+.caret {
+  border-top-color: currentColor;
+}
