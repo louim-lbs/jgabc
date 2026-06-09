@@ -40,12 +40,12 @@
         }
       });
 
-      Array.prototype.forEach.call(svg.querySelectorAll(".glyph, .neumeLine, .neumeBeam"), function(node) {
+      Array.prototype.forEach.call(svg.querySelectorAll(".glyph, .neumeLine, .neumeBeam, .horizontalEpisema"), function(node) {
         node.style.fill = warmWhite;
         node.style.stroke = warmWhite;
       });
 
-      Array.prototype.forEach.call(svg.querySelectorAll(".staffLine, .staffLines, .ledgerLine, .horizontalEpisema, .dividerLine"), function(node) {
+      Array.prototype.forEach.call(svg.querySelectorAll(".staffLine, .staffLines, .ledgerLine, .dividerLine"), function(node) {
         node.style.fill = staffRed;
         node.style.stroke = staffRed;
       });

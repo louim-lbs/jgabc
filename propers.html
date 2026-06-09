@@ -12,7 +12,7 @@
 </script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Mass Propers</title>
+  <title>Propres de la Messe</title>
   <link rel="gabc-index" href="gabc-files.html" type="text/html" />
   <link rel="icon" href="icon/clear-main.png" type="image/png" />
   <link rel="stylesheet" type="text/css" href="css/smoothness/jquery-ui-1.10.3.custom.min.css" />
@@ -68,24 +68,24 @@
   </form>
   <div style="width:100%;margin-bottom:5px" class='hide-print ss-border-bottom'>
     <ul class="nav nav-pills" style="display: inline-block;">
-      <li role="presentation"><a href="transcriber.html">GABC Transcription Tool</a></li>
-      <li role="presentation"><a href="psalmtone.html">Psalm Tone Tool</a></li>
-      <li role="presentation"><a href="readings.html">Readings Tool</a></li>
-      <li role="presentation" class="active"><a href="propers.html">Propers Tool</a></li>
-      <li role="presentation"><a href="faq.html">(About)</a></li>
+      <li role="presentation"><a href="transcriber.html">Outil de transcription GABC</a></li>
+      <li role="presentation"><a href="psalmtone.html">Outil de tons psalmiques</a></li>
+      <li role="presentation"><a href="readings.html">Outil des lectures</a></li>
+      <li role="presentation" class="active"><a href="propers.html">Propres</a></li>
+      <li role="presentation"><a href="faq.html">(À propos)</a></li>
     </ul>
     <div style="float:right;margin-left:8px" class="btn-group hide-cordova" role="group">
       <a class='btn btn-xs btn-primary' href='#' id='lnkPdfDirect'>PDF</a>
-      <a class='btn btn-xs btn-default' href='#' id='lnkPdf'>Further PDF options</a>
+      <a class='btn btn-xs btn-default' href='#' id='lnkPdf'>Options PDF avancées</a>
     </div>
     <div class="right hide-cordova" style="clear: both; float: right!important; margin-top: 6px">
       <div class="btn-group open-on-hover">
         <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown">
-          Include in PDF <span class="caret"></span>
+          Inclure dans le PDF <span class="caret"></span>
         </button>
         <ul class="dropdown-menu dropdown-menu-right" id="dropdown-menu-include">
-          <li><a href='#' id='removeSolesmes'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Solesmes Markings</span></a></li>
-          <li class="centered-heading" style="padding: 0 20px;">Propers<span id="toggle-all-page-break" class='pull-right glyphicon glyphicon-file'></span></li>
+          <li><a href='#' id='removeSolesmes'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Signes de Solesmes</span></a></li>
+          <li class="centered-heading" style="padding: 0 20px;">Propres<span id="toggle-all-page-break" class='pull-right glyphicon glyphicon-file'></span></li>
           <li class="disabled"><a href='#' id='includeIntroitus'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Introitus</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
           <li class="disabled multiple-graduales-0"><a href='#' id='includeGraduale'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Graduale</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
           <li class="disabled"><a href='#' id='includeTractus'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Tractus</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
@@ -93,7 +93,7 @@
           <li class="disabled"><a href='#' id='includeSequentia'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Sequentia</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
           <li class="disabled"><a href='#' id='includeOffertorium'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Offertorium</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
           <li class="disabled"><a href='#' id='includeCommunio'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Communio</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
-          <li class="centered-heading ordinary">Ordinary</li>
+          <li class="centered-heading ordinary">Ordinaire</li>
           <li class="disabled ordinary"><a href='#' id='includeAsperges'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Asperges</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
           <li class="disabled ordinary"><a href='#' id='includeKyrie'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Kyrie</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
           <li class="disabled ordinary"><a href='#' id='includeGloria'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Gloria</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
@@ -102,7 +102,7 @@
           <li class="disabled ordinary"><a href='#' id='includeSanctus'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Sanctus</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
           <li class="disabled ordinary"><a href='#' id='includeAgnus'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Agnus</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
           <li class="disabled ordinary"><a href='#' id='includeIte'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Ite</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
-          <li class="centered-heading ordinary">Ad libitum Chants</li>
+          <li class="centered-heading ordinary">Chants ad libitum</li>
           <li class="disabled ordinary"><a href='#' id='includeCustom1'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Ad libitum</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
           <li class="disabled ordinary"><a href='#' id='includeCustom2'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Ad libitum</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
           <li class="disabled ordinary"><a href='#' id='includeCustom3'><span class='glyphicon glyphicon-check'></span> <span class='lbl'>Ad libitum</span><span class='pull-right toggle-page-break glyphicon glyphicon-file'></span></a></li>
@@ -113,21 +113,21 @@
     <div class="right hide-cordova" style="margin-top: 6px;margin-right: 6px;float: right!important;">
       <div class="btn-group open-on-hover">
         <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown">
-          <span class="lbl lbl-paper-size">Letter</span> Paper <span class="caret"></span>
+          Papier <span class="lbl lbl-paper-size">Lettre</span> <span class="caret"></span>
         </button>
         <ul class="dropdown-menu dropdown-menu-right dropdown-paper-size">
-          <li><a href="#" paper="letter"><span class='glyphicon glyphicon-ok'></span> <span class="lbl">Letter</span></a></li>
-          <li><a href="#" paper="letter-booklet"><span class='glyphicon'></span> <span class="lbl">Letter Booklet</span></a></li>
+          <li><a href="#" paper="letter"><span class='glyphicon glyphicon-ok'></span> <span class="lbl">Lettre</span></a></li>
+          <li><a href="#" paper="letter-booklet"><span class='glyphicon'></span> <span class="lbl">Livret Lettre</span></a></li>
           <li><a href="#" paper="a4"><span class='glyphicon'></span> <span class="lbl">A4</span></a></li>
-          <li><a href="#" paper="a4-booklet"><span class='glyphicon'></span> <span class="lbl">A4 booklet</span></a></li>
+          <li><a href="#" paper="a4-booklet"><span class='glyphicon'></span> <span class="lbl">Livret A4</span></a></li>
         </ul>
       </div>
     </div>
-    <a style="float:right;margin-top: 6px;margin-right: 6px" class="btn btn-sm btn-primary ss-only" href="#" id="shareUrl"><span class='glyphicon glyphicon-share'></span> Share Current Settings</a>
+    <a style="float:right;margin-top: 6px;margin-right: 6px" class="btn btn-sm btn-primary ss-only" href="#" id="shareUrl"><span class='glyphicon glyphicon-share'></span> Partager les réglages actuels</a>
   </div>
   <div class='hide-print'>
-    <label for="btnCalendar">Calendar:&nbsp;<button id='btnCalendar' class='btn btn-default active' value='traditional' type='button'>Traditional</button></label>
-    <div><button class="hidden btn btn-danger" style="margin: 6px 0" id="btnClearSelections"><span class='glyphicon glyphicon-remove'></span> Clear Selections</button></div>
+    <label for="btnCalendar">Calendrier&nbsp;: <button id='btnCalendar' class='btn btn-default active' value='traditional' type='button'>Traditionnel</button></label>
+    <div><button class="hidden btn btn-danger" style="margin: 6px 0" id="btnClearSelections"><span class='glyphicon glyphicon-remove'></span> Effacer les sélections</button></div>
     <div><select id="selSunday" class="small-screen"></select></div>
     <div><select id="selSundayNovus" class="small-screen" style='display:none'></select></div>
     <div><select id="selSaint" class="small-screen"></select></div>
@@ -143,14 +143,14 @@
   </div>
   <hr class='hide-print block'>
   <div class='right hide-print' style="margin-top: -16px; margin-bottom: 16px">
-    <select id="selStyle" class='sel-style small-screen'><option value='full'>Full Propers</option><option disabled value='mixed'>Mixed Propers</option><option value='psalm-tone'>Psalm Toned Propers</option></select>
+    <select id="selStyle" class='sel-style small-screen'><option value='full'>Propres entiers</option><option disabled value='mixed'>Propres mixtes</option><option value='psalm-tone'>Propres en ton psalmique</option></select>
   </div>
   <div id='divCustom' part='custom' custom-chant>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblCustom" for="txtCustom"><a target="_blank">Ad libitum</a></label>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
         </span>
         <span class='child-main'>
           <select id='selCustom'></select>
@@ -168,10 +168,10 @@
   <div id='divAsperges' part='asperges' class='ordinary'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblAsperges" for="txtAsperges"><a target="_blank"><span tempus='pasch'>Vidi aquam</span><span tempus='-pasch'>Asperges</span></a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
         </span>
         <span class='child-main'>
           <select id='selAsperges'></select>
@@ -196,29 +196,29 @@
     </div>
   </div>
   <div id='divExtraChants' style="display: none;">
-    <div class="hide-print"><a href='' class='showHide'><span class='showHide'>Show</span> Extra Chants</a></div>
+    <div class="hide-print"><a href='' class='showHide'><span class='showHide'>Afficher</span> les chants supplémentaires</a></div>
     <div id='extra-chants'></div>
   </div>
   <div id='divIntroitus' part='introitus' style='display:none;'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblIntroitus" for="txtIntroitus"><a target="_blank">Introitus</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
-      <input id="txtCustomIntroitus" placeholder="Introitus Search Text" class="sel-custom" style="display:none"/>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
+      <input id="txtCustomIntroitus" placeholder="Texte de recherche pour Introitus" class="sel-custom" style="display:none"/>
       <span class='novus-options introitus' id='introitusOptions'>
-        <label for='selOptionsIntroitus'>&mdash; Pick One: </label>
+        <label for='selOptionsIntroitus'>&mdash; Choisir&nbsp;: </label>
         <select id='selOptionsIntroitus'></select>
       </span>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
           <label for="selToneIntroitus" class='sel-label'>Mode</label>
           <select id="selToneIntroitus" class='sel-style tones'></select>
         </span>
         <span class='child-main'>
           <select id="selStyleIntroitus" class='sel-style'>
-            <option value='full'>Full Introit</option>
-            <option value='full-gloria'>Full w/Gloria Patri</option>
-            <option value='psalm-tone'>Psalm Toned</option>
+            <option value='full'>Introit entier</option>
+            <option value='full-gloria'>Entier avec Gloria Patri</option>
+            <option value='psalm-tone'>En ton psalmique</option>
           </select>
         </span>
       </div>
@@ -232,19 +232,19 @@
       </div>
     </div>
     <div class='extra-verses'>
-      <label class='hide-print'><input type="checkbox" class="cbVersesAdLibitum"> Verses ad libitum:</label>
+      <label class='hide-print'><input type="checkbox" class="cbVersesAdLibitum"> Versets ad libitum&nbsp;:</label>
       <span class="verses-ad-libitum-default rubric hide-print"></span>
-      <span class="verses-ad-libitum-custom hide-print"><label>Psalm <select class='sel-psalms'></select></label> <input type="text" class="txtPsalmVerses" placeholder="Verses"></span>
+      <span class="verses-ad-libitum-custom hide-print"><label>Psaume <select class='sel-psalms'></select></label> <input type="text" class="txtPsalmVerses" placeholder="Versets"></span>
       <div id="introitusVerses-preview" class="verses verses-ad-libitum chant-preview"></div>
     </div>
   </div>
   <div id='divKyrie' part='kyrie' class='ordinary'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblKyrie" for="txtKyrie"><a target="_blank">Kyrie</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
         </span>
         <span class='child-main'>
           <select id='selKyrie'></select>
@@ -263,10 +263,10 @@
   <div id='divGloria' part='gloria' class='ordinary'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblGloria" for="txtGloria"><a target="_blank">Gloria</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
         </span>
         <span class='child-main'>
           <select id='selGloria'></select>
@@ -283,7 +283,7 @@
     </div>
   </div>
   <div id='divLectio' class='lectio' style='display:none'>
-    <div><span class='lectio-reference'></span><select class="selectShowLectionem"> <option value="">(Hidden)</option> <option value="latin">Latin</option> <option value="english">English</option> <option value="latin,english">English and Latin</option> <option value="french">French</option> <option value="latin,french">French and Latin</option> <option value="portuguese">Portuguese</option> <option value="latin,portuguese">Portuguese and Latin</option> </select></div>
+    <div><span class='lectio-reference'></span><select class="selectShowLectionem"> <option value="">(Masqué)</option> <option value="latin">Latin</option> <option value="english">Anglais</option> <option value="latin,english">Anglais et latin</option> <option value="french">Français</option> <option value="latin,french">Français et latin</option> <option value="portuguese">Portugais</option> <option value="latin,portuguese">Portugais et latin</option> </select></div>
     <div class='lectio-text'>
       <div class='lectio-latin'></div>
       <div class='lectio-english'></div>
@@ -294,24 +294,24 @@
   <div id='divGraduale' part='graduale' class='multiple-graduales-0' style='display:none;'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblGraduale" for="txtGraduale"><a target="_blank">Graduale</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
-      <input id="txtCustomGraduale" placeholder="Graduale Search Text" class="sel-custom" style="display:none"/>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
+      <input id="txtCustomGraduale" placeholder="Texte de recherche pour Graduale" class="sel-custom" style="display:none"/>
       <span class='novus-options graduale' id='gradualeOptions'>
-        <label>&mdash; Pick One: 
+        <label>&mdash; Choisir&nbsp;: 
         <select id='selOptionsGraduale'></select></label>
       </span>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
           <label class='sel-label'>Mode
           <select id="selToneGraduale" class='sel-style tones'></select></label>
           <select id="selToneEndingGraduale" class='sel-style endings graduale'></select>
-          <input id='cbSolemnGraduale' type='checkbox' class='cbSolemn graduale' title='Check this box to use the solemn psalm tone.'>
+          <input id='cbSolemnGraduale' type='checkbox' class='cbSolemn graduale' title='Cocher cette case pour utiliser le ton psalmique solennel.'>
         </span>
         <span class='child-main'>
           <select id="selStyleGraduale" class='sel-style'>
-            <option value='full'>Full Gradual</option>
-            <option value='psalm-tone'>Psalm Toned</option>
+            <option value='full'>Graduel entier</option>
+            <option value='psalm-tone'>En ton psalmique</option>
           </select>
         </span>
       </div>
@@ -326,7 +326,7 @@
     </div>
   </div>
   <div id='divLectioAnteTractu' class='lectio lectio-before-tract' style='display:none'>
-    <div><span class='lectio-reference'></span><select class="selectShowLectionem"> <option value="">(Hidden)</option> <option value="latin">Latin</option> <option value="english">English</option> <option value="latin,english">English and Latin</option> <option value="french">French</option> <option value="latin,french">French and Latin</option> <option value="portuguese">Portuguese</option> <option value="latin,portuguese">Portuguese and Latin</option> </select></div>
+    <div><span class='lectio-reference'></span><select class="selectShowLectionem"> <option value="">(Masqué)</option> <option value="latin">Latin</option> <option value="english">Anglais</option> <option value="latin,english">Anglais et latin</option> <option value="french">Français</option> <option value="latin,french">Français et latin</option> <option value="portuguese">Portugais</option> <option value="latin,portuguese">Portugais et latin</option> </select></div>
     <div class='lectio-text'>
       <div class='lectio-latin'></div>
       <div class='lectio-english'></div>
@@ -337,22 +337,22 @@
   <div id='divTractus' part='tractus' style='display:none;'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblTractus" for="txtTractus"><a target="_blank">Tractus</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
-      <input id="txtCustomTractus" placeholder="Tractus Search Text" class="sel-custom" style="display:none"/>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
+      <input id="txtCustomTractus" placeholder="Texte de recherche pour Tractus" class="sel-custom" style="display:none"/>
       <span class='novus-options tractus' id='tractusOptions'>
-        <label for='selOptionsTractus'>&mdash; Pick One: </label>
+        <label for='selOptionsTractus'>&mdash; Choisir&nbsp;: </label>
         <select id='selOptionsTractus'></select>
       </span>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
           <label for="selToneTractus" class='sel-label'>Mode</label>
           <select id="selToneTractus" class='sel-style tones'></select>
           <select id="selToneEndingTractus" class='sel-style endings tractus'></select>
-          <input id='cbSolemnTractus' type='checkbox' class='cbSolemn tractus' title='Check this box to use the solemn psalm tone.'>
+          <input id='cbSolemnTractus' type='checkbox' class='cbSolemn tractus' title='Cocher cette case pour utiliser le ton psalmique solennel.'>
         </span>
         <span class='child-main'>
-          <select id="selStyleTractus" class='sel-style'><option value='full'>Full Tract</option><option value='psalm-tone'>Psalm Toned</option></select>
+          <select id="selStyleTractus" class='sel-style'><option value='full'>Trait entier</option><option value='psalm-tone'>En ton psalmique</option></select>
         </span>
       </div>
       <textarea id="txtTractus" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
@@ -368,27 +368,27 @@
   <div id='divAlleluia' part='alleluia' style='display:none;'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblAlleluia" for="txtAlleluia"><a target="_blank">Alleluia</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
-      <input id="txtCustomAlleluia" placeholder="Alleluia Search Text" class="sel-custom" style="display:none"/>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
+      <input id="txtCustomAlleluia" placeholder="Texte de recherche pour Alleluia" class="sel-custom" style="display:none"/>
       <span class='novus-options alleluia' id='alleluiaOptions'>
-        <label for='selOptionsAlleluia'>&mdash; Pick One: </label>
+        <label for='selOptionsAlleluia'>&mdash; Choisir&nbsp;: </label>
         <select id='selOptionsAlleluia'></select>
       </span>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
           <label for="selToneAlleluia" class='sel-label'>Mode</label>
           <select id="selToneAlleluia" class='sel-style tones'></select>
           <select id="selToneEndingAlleluia" class='sel-style endings alleluia'></select>
-          <input id='cbSolemnAlleluia' type='checkbox' class='cbSolemn alleluia' title='Check this box to use the solemn psalm tone.'>
+          <input id='cbSolemnAlleluia' type='checkbox' class='cbSolemn alleluia' title='Cocher cette case pour utiliser le ton psalmique solennel.'>
         </span>
         <span class='child-main'>
           <select id="selStyleAlleluia" class='sel-style'>
-            <option value='full'>Full Alleluia</option>
+            <option value='full'>Alleluia entier</option>
             <option value='psalm-tone'>à la Liber Brevior</option>
             <option value='psalm-tone-sal'>à la Chants Abrégés</option>
-            <option value='psalm-tone2'>Psalm Toned</option>
-            <option value='psalm-tone1'>Completely Psalm Toned</option>
+            <option value='psalm-tone2'>En ton psalmique</option>
+            <option value='psalm-tone1'>Entièrement en ton psalmique</option>
           </select>
         </span>
       </div>
@@ -405,8 +405,8 @@
   <div id='divSequentia' part='sequentia' class='full' style='display:none;'>
     <div class='hide-print'>
       <label class="hide-ss" id="lblSequentia" for="txtSequentia"><a target="_blank">Sequentia</a></label>
-      <a class='toggleShowChantPreview'>(<span class='showHide'>Hide</span> Sequence)</a>
-      <input id="txtCustomSequentia" placeholder="Sequentia Search Text" class="sel-custom" style="display:none"/>
+      <a class='toggleShowChantPreview'>(<span class='showHide'>Masquer</span> la séquence)</a>
+      <input id="txtCustomSequentia" placeholder="Texte de recherche pour Sequentia" class="sel-custom" style="display:none"/>
     </div>
     <div class='chant-parent'>
       <div id="sequentia-preview-container" class='preview-container'>
@@ -415,7 +415,7 @@
     </div>
   </div>
   <div id='divEvangelium' class='lectio' style='display:none'>
-    <div><span class='lectio-reference'></span><select class="selectShowLectionem"> <option value="">(Hidden)</option> <option value="latin">Latin</option> <option value="english">English</option> <option value="latin,english">English and Latin</option> <option value="french">French</option> <option value="latin,french">French and Latin</option> <option value="portuguese">Portuguese</option> <option value="latin,portuguese">Portuguese and Latin</option> </select></div>
+    <div><span class='lectio-reference'></span><select class="selectShowLectionem"> <option value="">(Masqué)</option> <option value="latin">Latin</option> <option value="english">Anglais</option> <option value="latin,english">Anglais et latin</option> <option value="french">Français</option> <option value="latin,french">Français et latin</option> <option value="portuguese">Portugais</option> <option value="latin,portuguese">Portugais et latin</option> </select></div>
     <div class='lectio-text'>
       <div class='lectio-latin'></div>
       <div class='lectio-english'></div>
@@ -426,10 +426,10 @@
   <div id='divCredo' part='credo' class='ordinary'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblCredo" for="txtCredo"><a target="_blank">Credo</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
         </span>
         <span class='child-main'>
           <select id='selCredo'></select>
@@ -448,22 +448,22 @@
   <div id='divOffertorium' part='offertorium' style='display:none;'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblOffertorium" for="txtOffertorium"><a target="_blank">Offertorium</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
-      <input id="txtCustomOffertorium" placeholder="Offertorium Search Text" class="sel-custom" style="display:none"/>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
+      <input id="txtCustomOffertorium" placeholder="Texte de recherche pour Offertorium" class="sel-custom" style="display:none"/>
       <span class='novus-options offertorium' id='offertoriumOptions'>
-        <label for='selOptionsOffertorium'>&mdash; Pick One: </label>
+        <label for='selOptionsOffertorium'>&mdash; Choisir&nbsp;: </label>
         <select id='selOptionsOffertorium'></select>
       </span>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
           <label for="selToneOffertorium" class='sel-label'>Mode</label>
           <select id="selToneOffertorium" class='sel-style tones'></select>
           <select id="selToneEndingOffertorium" class='sel-style endings offertorium'></select>
-          <input id='cbSolemnOffertorium' type='checkbox' class='cbSolemn offertorium' title='Check this box to use the solemn psalm tone.'>
+          <input id='cbSolemnOffertorium' type='checkbox' class='cbSolemn offertorium' title='Cocher cette case pour utiliser le ton psalmique solennel.'>
         </span>
         <span class='child-main'>
-          <select id="selStyleOffertorium" class='sel-style'><option value='full'>Full Offertory</option><option value='psalm-tone'>Psalm Toned</option></select>
+          <select id="selStyleOffertorium" class='sel-style'><option value='full'>Offertoire entier</option><option value='psalm-tone'>En ton psalmique</option></select>
         </span>
       </div>
     <textarea id="txtOffertorium" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
@@ -481,7 +481,7 @@
       <label class="hide-ss" id="lblPreface" for="txtPreface"><a target="_blank">Preface</a></label>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
         </span>
         <span class='child-main'>
           <select id='selPreface'></select>
@@ -500,10 +500,10 @@
   <div id='divSanctus' part='sanctus' class='ordinary'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblSanctus" for="txtSanctus"><a target="_blank">Sanctus</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
         </span>
         <span class='child-main'>
           <select id='selSanctus'></select>
@@ -522,10 +522,10 @@
   <div id='divAgnus' part='agnus' class='ordinary'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblAgnus" for="txtAgnus"><a target="_blank">Agnus</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
         </span>
         <span class='child-main'>
           <select id='selAgnus'></select>
@@ -544,22 +544,22 @@
   <div id='divCommunio' part='communio' style='display:none;'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblCommunio" for="txtCommunio"><a target="_blank">Communio</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
-      <input id="txtCustomCommunio" placeholder="Communio Search Text" class="sel-custom" style="display:none"/>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
+      <input id="txtCustomCommunio" placeholder="Texte de recherche pour Communio" class="sel-custom" style="display:none"/>
       <span class='novus-options communio' id='communioOptions'>
-        <label for='selOptionsCommunio'>&mdash; Pick One: </label>
+        <label for='selOptionsCommunio'>&mdash; Choisir&nbsp;: </label>
         <select id='selOptionsCommunio'></select>
       </span>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
           <label for="selToneCommunio" class='sel-label'>Mode</label>
           <select id="selToneCommunio" class='sel-style tones'></select>
           <select id="selToneEndingCommunio" class='sel-style endings communio'></select>
-          <input id='cbSolemnCommunio' type='checkbox' class='cbSolemn communio' title='Check this box to use the solemn psalm tone.'>
+          <input id='cbSolemnCommunio' type='checkbox' class='cbSolemn communio' title='Cocher cette case pour utiliser le ton psalmique solennel.'>
         </span>
         <span class='child-main'>
-          <select id="selStyleCommunio" class='sel-style'><option value='full'>Full Communion</option><option value='psalm-tone'>Psalm Toned</option></select>
+          <select id="selStyleCommunio" class='sel-style'><option value='full'>Communion entière</option><option value='psalm-tone'>En ton psalmique</option></select>
         </span>
       </div>
       <textarea id="txtCommunio" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
@@ -572,19 +572,19 @@
       </div>
     </div>
     <div class='extra-verses'>
-      <label class='hide-print'><input type="checkbox" class="cbVersesAdLibitum"> Verses ad libitum:</label>
+      <label class='hide-print'><input type="checkbox" class="cbVersesAdLibitum"> Versets ad libitum&nbsp;:</label>
       <span class="verses-ad-libitum-default rubric hide-print"></span>
-      <span class="verses-ad-libitum-custom hide-print"><label>Psalm <select class='sel-psalms'></select></label> <input type="text" class="txtPsalmVerses" placeholder="Verses"></span>
+      <span class="verses-ad-libitum-custom hide-print"><label>Psaume <select class='sel-psalms'></select></label> <input type="text" class="txtPsalmVerses" placeholder="Versets"></span>
       <div id="communioVerses-preview" class="verses verses-ad-libitum chant-preview"></div>
     </div>
   </div>
   <div id='divIte' part='ite' class='ordinary'>
     <div class='block hide-print'>
       <label class="hide-ss" id="lblIte" for="txtIte"><a target="_blank">Ite</a></label>
-      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>
+      <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>
       <div class='flex right'>
         <span class='child-other'>
-          <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>
+          <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>
         </span>
         <span class='child-main'>
           <select id='selIte'></select>
