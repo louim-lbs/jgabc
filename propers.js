@@ -291,6 +291,34 @@ $(function(){
     responsorium: "Resp.",
     canticum: "Cant."
   };
+  var partNamesFr = {
+    verse: 'Verset',
+    tractus: 'Trait',
+    offertorium: 'Offertoire',
+    introitus: 'Introit',
+    graduale: 'Graduel',
+    communio: 'Communion',
+    sequentia: 'Séquence',
+    alleluia: 'Alleluia',
+    hymnus: 'Hymne',
+    antiphona: 'Antienne',
+    responsorium: 'Répons',
+    canticum: 'Cantique'
+  };
+  var fullStyleLabelsFr = {
+    verse: 'Verset entier',
+    tractus: 'Trait entier',
+    offertorium: 'Offertoire entier',
+    introitus: 'Introit entier',
+    graduale: 'Graduel entier',
+    communio: 'Communion entière',
+    sequentia: 'Séquence entière',
+    alleluia: 'Alleluia entier',
+    hymnus: 'Hymne entier',
+    antiphona: 'Antienne entière',
+    responsorium: 'Répons entier',
+    canticum: 'Cantique entier'
+  };
   var partKey = {
     introitus: 'in',
     graduale: 'gr',
@@ -579,18 +607,18 @@ $(function(){
           partIndex = null;
         }
         if(/^(graduale|tractus)/.test(truePart)) {
-          $style.append($('<option>').attr('value','psalm-tone1').text('Psalm Toned Verse' + (truePart == 'tractus'? 's':'')));
+          $style.append($('<option>').attr('value','psalm-tone1').text('Verset' + (truePart == 'tractus'? 's' : '') + ' en ton psalmique'));
           if(/^psalm-tone[^1]/.test(styleVal)) {
             styleVal = 'psalm-tone';
           }
           $style.val(styleVal);
         }
-        var capTruePart = truePart.replace(/(^|\s)([a-z])/g, function(all,space,letter) {
+        var capTruePart = (partNamesFr[truePart] || truePart).replace(/(^|\s)([a-zéèêàùûîï])/g, function(all,space,letter) {
           return space + letter.toUpperCase();
         });
         if(capTruePart) {
           $('#lbl'+capPart+'>a,#include'+capPart+'>span.lbl').text(capTruePart + (partIndex? ' '+partIndex : ''));
-          $('#selStyle'+capPart+' option[value=full]').text('Full ' + capTruePart);
+          $('#selStyle'+capPart+' option[value=full]').text(fullStyleLabelsFr[truePart] || (capTruePart + ' entier'));
         }
         var romanMode = romanNumeral[header.mode];
         var annotation = partAbbrev[truePart] || partAbbrev[(header.officePart||'').toLowerCase()];
@@ -677,7 +705,7 @@ $(function(){
     }
   };
   var lectioTemplate = '<div class="lectio multiple-lectiones-$num" style="display:none">\
-    <div><span class="lectio-reference"></span> <select class="selectShowLectionem"><option value="">(Hidden)</option><option value="latin">Latin</option><option value="english">English</option><option value="latin,english">English and Latin</option><option value="french">French</option><option value="latin,french">French and Latin</option><option value="portuguese">Portuguese</option><option value="latin,portuguese">Portuguese and Latin</option></select></div>\
+    <div><span class="lectio-reference"></span> <select class="selectShowLectionem"><option value="">(Masquée)</option><option value="latin">Latin</option><option value="english">Anglais</option><option value="latin,english">Anglais et latin</option><option value="french">Français</option><option value="latin,french">Français et latin</option><option value="portuguese">Portugais</option><option value="latin,portuguese">Portugais et latin</option></select></div>\
     <div class="lectio-text">\
       <div class="lectio-latin"></div>\
       <div class="lectio-english"></div>\
@@ -690,19 +718,19 @@ $(function(){
 <div id="divGraduale$num" part="graduale$num" class="multiple-graduales-$num">\
   <div class="block hide-print">\
     <label class="hide-ss" id="lblGraduale$num" for="txtGraduale$num"><a target="_blank">Graduale</a></label>\
-    <a class="toggleShowGabc hide-ss" href>(<span class="showHide">Show</span> Text Editor)</a>\
+    <a class="toggleShowGabc hide-ss" href>(<span class="showHide">Afficher</span> l’éditeur de texte)</a>\
     <div class="flex right">\
       <span class="child-other">\
-        <button class="btn btn-xs btn-default remove-modifications">Remove Modifications</button>\
+        <button class="btn btn-xs btn-default remove-modifications">Retirer les modifications</button>\
         <label class="sel-label">Mode\
         <select id="selToneGraduale$num" class="sel-style tones" disabled="disabled"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label>\
         <select id="selToneEndingGraduale$num" class="sel-style endings graduale$num" style="display: none;"></select>\
-        <input id="cbSolemnGraduale$num" type="checkbox" class="cbSolemn graduale$num" title="Check this box to use the solemn psalm tone." style="display: none;">\
+        <input id="cbSolemnGraduale$num" type="checkbox" class="cbSolemn graduale$num" title="Cocher cette case pour utiliser le ton psalmique solennel." style="display: none;">\
       </span>\
       <span class="child-main">\
         <select id="selStyleGraduale$num" class="sel-style">\
-          <option value="full">Full Gradual</option>\
-          <option value="psalm-tone">Psalm Toned</option>\
+          <option value="full">Graduel entier</option>\
+          <option value="psalm-tone">En ton psalmique</option>\
         </select>\
       </span>\
     </div>\
@@ -948,8 +976,8 @@ $(function(){
     var $this = $('#divExtraChants a.showHide'),
         $showHide = $this.find('span.showHide'),
         $container = $('#extra-chants'),
-        showHide = typeof(e)=='boolean'? e : $showHide.text() === 'Show';
-    $showHide.text(showHide? 'Hide' : 'Show');
+        showHide = typeof(e)=='boolean'? e : $showHide.text() === 'Afficher';
+    $showHide.text(showHide? 'Masquer' : 'Afficher');
     $container.toggle(showHide);
     if(showHide && $container.is(':empty')) {
       // set up the chants for first time rendering:
@@ -1022,19 +1050,19 @@ $(function(){
         $curElement = $('<div>').attr('part',part).addClass('full showing-chant').
           append("<div class='block hide-print'>\
   <!-- <label class='hide-ss' id='lbl"+part+"' for='txt"+part+"'><a target='_blank' class='office-part-name'>Chant</a></label>\
-  <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Show</span> Text Editor)</a>\
+  <a class='toggleShowGabc hide-ss'>(<span class='showHide'>Afficher</span> l’éditeur de texte)</a>\
   -->\
   <div class='flex right'>\
     <span class='child-other'>\
-      <button class='btn btn-xs btn-default remove-modifications'>Remove Modifications</button>\
+      <button class='btn btn-xs btn-default remove-modifications'>Retirer les modifications</button>\
       <!-- <label for='selTone"+part+"' class='sel-label'>Mode</label>\
           <select id='selTone"+part+"' class='sel-style tones'></select>\
           <select id='selToneEnding"+part+"' class='sel-style endings "+part+"'></select>\
-          <input id='cbSolemn"+part+"' type='checkbox' class='cbSolemn "+part+"' title='Check this box to use the solemn psalm tone.'>\
+          <input id='cbSolemn"+part+"' type='checkbox' class='cbSolemn "+part+"' title='Cocher cette case pour utiliser le ton psalmique solennel.'>\
       -->\
     </span>\
     <!-- <span class='child-main'>\
-          <select id='selStyle"+part+"' class='sel-style'><option value='full'>Full Tone</option><option value='psalm-tone'>Psalm Toned</option></select>\
+          <select id='selStyle"+part+"' class='sel-style'><option value='full'>Ton entier</option><option value='psalm-tone'>En ton psalmique</option></select>\
         </span>\
     -->\
   </div>\
@@ -1211,7 +1239,7 @@ $(function(){
           selectVal = $select.val(),
           selectedPart = ordinary[part] || [],
           adLibPart = ordinaryAdLib[part] || [],
-          optionNone = $('<option></option>').val('no').text('No ' + capPart);
+          optionNone = $('<option></option>').val('no').text('Pas de ' + capPart);
       if(selectedPart.constructor != [].constructor) {
         selectedPart = [selectedPart];
       }
@@ -1637,7 +1665,7 @@ $(function(){
         showing = $showHide.toggleClass('showing', event).hasClass('showing'),
         $blockRight = $part.find('.block.right'),
         $psalmEditor = $blockRight.find('.psalm-editor');
-    $showHide.text(showing? 'Hide' : 'Show');
+    $showHide.text(showing? 'Masquer' : 'Afficher');
     if(showing) {
       if($psalmEditor.length) {
         $psalmEditor.show();
@@ -1764,7 +1792,7 @@ $(function(){
     if(style.match(/^psalm-tone/)) {
       $part.addClass('psalm-toned').removeClass('full');
       if($toggleEditMarkings.length == 0) {
-        $toggleEditMarkings = $("<a href='' class='toggleEditMarkings'>(<span class='showHide'>Show</span> Editor)</a>")
+        $toggleEditMarkings = $("<a href='' class='toggleEditMarkings'>(<span class='showHide'>Afficher</span> l’éditeur)</a>")
         $toggleEditMarkings.click(toggleEditMarkings);
         $right.prepend($toggleEditMarkings);
       } else {
@@ -2518,7 +2546,7 @@ $(function(){
       .replace(/\\hspace{[^}]*}/g,'')
       .replace(/(?:\(Z\)\s*)?<alt>(.*?\\emph.*?)<\/alt>/gi, '^_$1_^() (Z)\n')
       .replace(/<\/?eu>|\[[ou]ll:[01]?[{}][01]?\]/ig,'') // <eu> tags and oll ledger line indications
-      .replace(/(\s\^?\*\^?)(?=\s*[^(])/g,' *()') // currently * before a syllable causes the syllable to be bolded.  (TODO: this should be fixed in Exsurge)
+      .replace(/(\s)\^?\*\^?(?=\s*[^(])/g,'$1^*^()') // currently * before a syllable causes the syllable to be bolded.  (TODO: this should be fixed in Exsurge)
       .replace(/(\))\s*\(\)/g,")"); // replace any worthless empty parentheses.
     var gabcHeader = getHeader(gabc);
     if(gabcHeader.original) {
@@ -2549,7 +2577,11 @@ $(function(){
     if(gabcHeader.original) {
       var annotationArray = sel[part].annotationArray || gabcHeader.annotationArray;
       if(annotationArray) {
-        score.annotation = new exsurge.Annotations(ctxt, '%'+annotationArray[0]+'%', '%'+annotationArray[1]+'%');
+        if(annotationArray.length > 1) {
+          score.annotation = new exsurge.Annotations(ctxt, '%'+annotationArray[0]+'%', '%'+annotationArray[1]+'%');
+        } else {
+          score.annotation = new exsurge.Annotations(ctxt, '%'+annotationArray[0]+'%');
+        }
       } else if(gabcHeader.annotation) {
         score.annotation = new exsurge.Annotations(ctxt, '%'+gabcHeader.annotation+'%');
       } else if(!prop.noDropCap && (gabcHeader.mode || gabcHeader['office-part'])) {
@@ -2593,6 +2625,16 @@ $(function(){
       svg.style.width = width * scale;
       svg.style.marginLeft = (availableWidth - (width * scale)) / 2;
     }
+  }
+
+  function colorStandaloneStarsInSvg(container) {
+    if(!container) return;
+    $(container).find('text,tspan').each(function() {
+      if(/^\s*\*+\s*$/.test(this.textContent || '')) {
+        this.style.fill = 'var(--ui-red)';
+        this.style.color = 'var(--ui-red)';
+      }
+    });
   }
 
   var layoutChant = function(part, synchronous, id) {
@@ -2657,6 +2699,7 @@ $(function(){
       if(useNoMoreThanHalfHeight) {
         makeSvgNoMoreThanHalfWindowHeight(svg);
       }
+      colorStandaloneStarsInSvg(chantContainer[0]);
       updateTextSize(part);
       return;
     }
@@ -2669,6 +2712,7 @@ $(function(){
       }
       // render the score to svg code
       chantContainer.empty().append(score.createSvgNodeForEachLine(ctxt));
+      colorStandaloneStarsInSvg(chantContainer[0]);
       updateTextSize(part);
     } else {
       score.performLayoutAsync(ctxt, function() {
@@ -2693,6 +2737,7 @@ $(function(){
             }
           }
           chantContainer.empty().append(svg);
+          colorStandaloneStarsInSvg(svg);
           var callback = function() {
             updateTextSize(part);
             if(window.afterChantLayout) window.afterChantLayout();
@@ -2951,7 +2996,7 @@ $(function(){
       children: e.children && e.children.map(mapNameToTitle)
     }
   };
-  populate([{name:"Select ad lib. chant", id: ""}].concat(miscChants).map(mapNameToTitle), $('#selCustom'));
+  populate([{name:"Selectionner un chant ad lib.", id: ""}].concat(miscChants).map(mapNameToTitle), $('#selCustom'));
   var $customTemplate = $('#divCustom');
   $.each(['','offertorium','communio','ite'], function(i,key) {
     var $custom = $customTemplate;
@@ -3012,7 +3057,7 @@ $(function(){
     } else {
       $('#selSunday,#selSaint,#selMass,#selTempus').show();
       $('#selSundayNovus,#selYearNovus').hide();
-      $this.text('Traditional');
+      $this.text('Traditionnel');
       $('#selSunday').prop('selectedIndex',0).change();
     }
     $('#selKyrie').change();
@@ -3309,7 +3354,7 @@ $(function(){
         $part = $this.parents().filter('[part]'),
         part = $part.attr('part');
         isShowing = $part.toggleClass('show-gabc').hasClass('show-gabc');
-    $this.find('.showHide').text(isShowing?'Hide' : 'Show');
+    $this.find('.showHide').text(isShowing?'Masquer' : 'Afficher');
     layoutChant(part);
   }).on('change','input.cbVersesAdLibitum',function(e,targetState) {
     var $this = $(this),
@@ -3369,6 +3414,11 @@ $(function(){
         // lines = lines.filter(function(l) { return parentText.indexOf(l.replace(/(?:\s+[*+^†]|\s*[,;:.!?])\s*($|\s)/g,'$1')) < 0; })
         state.text = lines.join('\n');
         state.mode = sel[part].mode;
+        if(romanNumeral[state.mode]) {
+          state.annotationArray = [romanNumeral[state.mode]];
+        } else {
+          delete state.annotationArray;
+        }
 
         // match clef of antiphon:
         var clef = sel[part].score.startingClef.mapping.source;
@@ -3421,7 +3471,7 @@ $(function(){
         $part = $this.parents().filter('[part]'),
         part = $part.attr('part');
         isShowing = !$part.toggleClass('hide-chant').hasClass('hide-chant');
-    $this.find('.showHide').text(isShowing?'Hide' : 'Show');
+    $this.find('.showHide').text(isShowing?'Masquer' : 'Afficher');
     if(isShowing) layoutChant(part);
   });
   var customProperSelected = function(event,ui){

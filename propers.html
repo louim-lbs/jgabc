@@ -68,17 +68,17 @@
   </form>
   <div style="width:100%;margin-bottom:5px" class='hide-print ss-border-bottom'>
     <ul class="nav nav-pills" style="display: inline-block;">
-      <li role="presentation"><a href="transcriber.html">Outil de transcription GABC</a></li>
-      <li role="presentation"><a href="psalmtone.html">Outil de tons psalmiques</a></li>
-      <li role="presentation"><a href="readings.html">Outil des lectures</a></li>
+      <li role="presentation"><a href="transcriber.html">Transcription</a></li>
+      <li role="presentation"><a href="psalmtone.html">Tons psalmiques</a></li>
+      <li role="presentation"><a href="readings.html">Lectures</a></li>
       <li role="presentation" class="active"><a href="propers.html">Propres</a></li>
       <li role="presentation"><a href="faq.html">(À propos)</a></li>
     </ul>
-    <div style="float:right;margin-left:8px" class="btn-group hide-cordova" role="group">
+    <div style="float:right;margin-left:8px" class="btn-group hide-cordova pdf-export-control" role="group">
       <a class='btn btn-xs btn-primary' href='#' id='lnkPdfDirect'>PDF</a>
       <a class='btn btn-xs btn-default' href='#' id='lnkPdf'>Options PDF avancées</a>
     </div>
-    <div class="right hide-cordova" style="clear: both; float: right!important; margin-top: 6px">
+    <div class="right hide-cordova pdf-export-control" style="clear: both; float: right!important; margin-top: 6px">
       <div class="btn-group open-on-hover">
         <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown">
           Inclure dans le PDF <span class="caret"></span>
@@ -110,7 +110,7 @@
         </ul>
       </div>
     </div>
-    <div class="right hide-cordova" style="margin-top: 6px;margin-right: 6px;float: right!important;">
+    <div class="right hide-cordova pdf-export-control" style="margin-top: 6px;margin-right: 6px;float: right!important;">
       <div class="btn-group open-on-hover">
         <button type="button" class="btn btn-xs btn-default dropdown-toggle" data-toggle="dropdown">
           Papier <span class="lbl lbl-paper-size">Lettre</span> <span class="caret"></span>
@@ -123,26 +123,29 @@
         </ul>
       </div>
     </div>
-    <a style="float:right;margin-top: 6px;margin-right: 6px" class="btn btn-sm btn-primary ss-only" href="#" id="shareUrl"><span class='glyphicon glyphicon-share'></span> Partager les réglages actuels</a>
+    <a style="float:right;margin-top: 6px;margin-right: 6px" class="btn btn-sm btn-primary ss-only pdf-export-control" href="#" id="shareUrl"><span class='glyphicon glyphicon-share'></span> Partager les réglages actuels</a>
   </div>
-  <div class='hide-print'>
-    <label for="btnCalendar">Calendrier&nbsp;: <button id='btnCalendar' class='btn btn-default active' value='traditional' type='button'>Traditionnel</button></label>
+  <div class='hide-print global-controls'>
+    <div class="global-controls-heading"><span class='glyphicon glyphicon-calendar'></span> Contexte liturgique</div>
+    <label for="btnCalendar" class="calendar-control">Calendrier&nbsp;: <button id='btnCalendar' class='btn btn-default active' value='traditional' type='button'>Traditionnel</button></label>
     <div><button class="hidden btn btn-danger" style="margin: 6px 0" id="btnClearSelections"><span class='glyphicon glyphicon-remove'></span> Effacer les sélections</button></div>
-    <div><select id="selSunday" class="small-screen"></select></div>
-    <div><select id="selSundayNovus" class="small-screen" style='display:none'></select></div>
-    <div><select id="selSaint" class="small-screen"></select></div>
-    <div><select id="selMass" class="small-screen"></select></div>
-    <div><select id="selTempus" class="small-screen" style='display:none;'></select></div>
-    <div><select id="selYearNovus" class="small-screen" style='display:none;'></select></div>
+    <div class="global-controls-grid">
+      <div><select id="selSunday" class="small-screen"></select></div>
+      <div><select id="selSundayNovus" class="small-screen" style='display:none'></select></div>
+      <div><select id="selSaint" class="small-screen"></select></div>
+      <div><select id="selMass" class="small-screen"></select></div>
+      <div><select id="selTempus" class="small-screen" style='display:none;'></select></div>
+      <div><select id="selYearNovus" class="small-screen" style='display:none;'></select></div>
+    </div>
   </div>
-  <div class='hide-print' style="margin-top: 14px">
+  <div class='hide-print chant-settings' style="margin-top: 14px">
     <div class="block">
       <select id="selOrdinary" class='sel-mass small-screen' style="margin: none!important">
       </select>
     </div>
   </div>
   <hr class='hide-print block'>
-  <div class='right hide-print' style="margin-top: -16px; margin-bottom: 16px">
+  <div class='right hide-print chant-style-control' style="margin-top: -16px; margin-bottom: 16px">
     <select id="selStyle" class='sel-style small-screen'><option value='full'>Propres entiers</option><option disabled value='mixed'>Propres mixtes</option><option value='psalm-tone'>Propres en ton psalmique</option></select>
   </div>
   <div id='divCustom' part='custom' custom-chant>

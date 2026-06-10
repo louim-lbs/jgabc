@@ -6,9 +6,8 @@ svg.bg-blur {
   width: 0;
 }
 .sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: -1px;
+  position: static;
+  top: auto;
   padding-top: 4px;
   background: white;
   border-bottom: 1px solid #ddd;
@@ -111,9 +110,8 @@ textarea {
 }
 div[part] > div.block:first-child {
   background: white;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -1px;
+  position: static;
+  top: auto;
   padding: 1px 0 0;
 }
 text.aboveLinesText {

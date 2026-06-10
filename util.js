@@ -1265,26 +1265,26 @@ if(typeof window=='object') (function(window) {
     if(editorialChange && base) {
       base.noteProperties = noteProperties;
       if(noteProperties.hasMorae)
-        $toolbar.prepend($('<button>').addClass('btn btn-danger').text('Remove •').click($.extend({action:'removeMora'}, base), editorialChange));
+        $toolbar.prepend($('<button>').addClass('btn btn-danger').text('Enlever •').click($.extend({action:'removeMora'}, base), editorialChange));
       else if(noteProperties.acceptsMora) {
-        $toolbar.prepend($('<button>').addClass('btn btn-success').text('Add •').click($.extend({action:'addMora'}, base), editorialChange));
+        $toolbar.prepend($('<button>').addClass('btn btn-success').text('Ajouter •').click($.extend({action:'addMora'}, base), editorialChange));
       }
       if(noteProperties.acceptsEpisema) {
-        $toolbar.prepend($('<button>').addClass('btn btn-success').text('Add Episema').click($.extend({action:'addEpisema'}, base), editorialChange));
+        $toolbar.prepend($('<button>').addClass('btn btn-success').text('Ajouter un episème').click($.extend({action:'addEpisema'}, base), editorialChange));
       }
       if(noteProperties.acceptsBarBefore) {
-        if(noteProperties.hasBarBefore) $toolbar.prepend($('<button>').addClass('btn btn-success').html('<span class="glyphicon glyphicon-arrow-left"></span> Add carryover').click($.extend({action:'addCarryOverBefore', barBefore: noteProperties.hasBarBefore && noteProperties.prevNotation}, base), editorialChange));
-        $toolbar.prepend($('<button>').addClass('btn btn-'+(noteProperties.hasBarBefore?'danger':'success')).html('<span class="glyphicon glyphicon-arrow-left"></span> ' + (noteProperties.hasBarBefore? 'Remove' : ' Add') + ' Bar').click($.extend({action:'toggleBarBefore', barBefore: noteProperties.hasBarBefore && noteProperties.prevNotation}, base), editorialChange));
+        if(noteProperties.hasBarBefore) $toolbar.prepend($('<button>').addClass('btn btn-success').html('<span class="glyphicon glyphicon-arrow-left"></span> Ajouter carryover').click($.extend({action:'addCarryOverBefore', barBefore: noteProperties.hasBarBefore && noteProperties.prevNotation}, base), editorialChange));
+        $toolbar.prepend($('<button>').addClass('btn btn-'+(noteProperties.hasBarBefore?'danger':'success')).html('<span class="glyphicon glyphicon-arrow-left"></span> ' + (noteProperties.hasBarBefore? 'Enlever' : ' Ajouter') + ' une barre').click($.extend({action:'toggleBarBefore', barBefore: noteProperties.hasBarBefore && noteProperties.prevNotation}, base), editorialChange));
       }
       if(noteProperties.acceptsBarAfter || (noteProperties.hasMorae && noteProperties.isLastOfNeume)) {
-        if(noteProperties.hasBarAfter) $toolbar.prepend($('<button>').addClass('btn btn-success').html('Add carryover <span class="glyphicon glyphicon-arrow-right"></span>').click($.extend({action:'addCarryOverAfter', barAfter: noteProperties.hasBarAfter && noteProperties.nextNotation}, base), editorialChange));
-        $toolbar.prepend($('<button>').addClass('btn btn-'+(noteProperties.hasBarAfter?'danger':'success')).html((noteProperties.hasBarAfter? 'Remove' : ' Add') + ' Bar <span class="glyphicon glyphicon-arrow-right"></span>').click($.extend({action:'toggleBarAfter', after: noteProperties.acceptsBarAfter? 'neume' : 'note', barAfter: noteProperties.hasBarAfter && noteProperties.nextNotation}, base), editorialChange));
+        if(noteProperties.hasBarAfter) $toolbar.prepend($('<button>').addClass('btn btn-success').html('Ajouter carryover <span class="glyphicon glyphicon-arrow-right"></span>').click($.extend({action:'addCarryOverAfter', barAfter: noteProperties.hasBarAfter && noteProperties.nextNotation}, base), editorialChange));
+        $toolbar.prepend($('<button>').addClass('btn btn-'+(noteProperties.hasBarAfter?'danger':'success')).html((noteProperties.hasBarAfter? 'Enlever' : ' Ajouter') + ' une barre <span class="glyphicon glyphicon-arrow-right"></span>').click($.extend({action:'toggleBarAfter', after: noteProperties.acceptsBarAfter? 'neume' : 'note', barAfter: noteProperties.hasBarAfter && noteProperties.nextNotation}, base), editorialChange));
       }
       if(noteProperties.isQuilisma) {
-        $toolbar.prepend($('<button>').addClass('btn btn-danger').text('Remove Quilisma').click($.extend({action:'removeQuilisma'}, base), editorialChange));
+        $toolbar.prepend($('<button>').addClass('btn btn-danger').text('Enlever Quilisma').click($.extend({action:'removeQuilisma'}, base), editorialChange));
       }
       if(noteProperties.isRepeatedNote)
-        $toolbar.prepend($('<button>').addClass('btn btn-danger').text('Remove Punctum').click($.extend({action:'removePunctum'}, base), editorialChange));
+        $toolbar.prepend($('<button>').addClass('btn btn-danger').text('Enlever Punctum').click($.extend({action:'removePunctum'}, base), editorialChange));
       if(noteProperties.hasEpisemata) {
         if(noteProperties.isTorculus || noteProperties.isPesSubpunctis) {
           $toolbar.prepend($('<button>').addClass('btn btn-primary').html('12<span class="ol">3</span>').click($.extend({action:'torculus3'}, base), editorialChange));
@@ -1294,7 +1294,7 @@ if(typeof window=='object') (function(window) {
             $toolbar.prepend($('<button>').addClass('btn btn-primary').html('<span class="ol">12</span>3').click($.extend({action:'torculus12'}, base), editorialChange));
           }
         }
-        $toolbar.prepend($('<button>').addClass('btn btn-danger').text('Remove Episema').click($.extend({action:'removeEpisema'}, base), editorialChange));
+        $toolbar.prepend($('<button>').addClass('btn btn-danger').text('Enlever episème').click($.extend({action:'removeEpisema'}, base), editorialChange));
       }
     }
       
@@ -1586,7 +1586,7 @@ if(typeof $=='function') $(function($) {
       e.stopPropagation();
       moveToNote(-1);
     }));
-    var playButton = $('<button>').addClass('btn btn-primary').html('<span class="glyphicon glyphicon-play"></span> Play' + (isFirstPitch? '' : ' Chant from here')).click(function(e) {
+    var playButton = $('<button>').addClass('btn btn-primary').html('<span class="glyphicon glyphicon-play"></span> Play' + (isFirstPitch? '' : '')).click(function(e) {
       e.stopPropagation();
       mouseUpTone();
       playScore(score, score.defaultStartPitch, noteProperties && noteProperties.note);
@@ -1612,7 +1612,7 @@ if(typeof $=='function') $(function($) {
     var mouseDownTone = function() {
       if(!stopTone) stopTone = tones.play(new exsurge.Pitch(score.defaultStartPitch.toInt() - startPitch + thisPitch), {start: true, release: 300});
     };
-    pitchButtonGroup.append($('<button>').addClass('btn btn-info').html('<div>' + (isFirstPitch? 'Starting ' : '') + 'Pitch: <span class="this-pitch"></span></div>' +
+    pitchButtonGroup.append($('<button>').addClass('btn btn-info').html('<div>' + (isFirstPitch? 'Starting ' : '') + 'Tonalité : <span class="this-pitch"></span></div>' +
         (isFirstPitch? '<div>Range: <span class="lowest-pitch"></span> to <span class="highest-pitch"></span></div>' : '')).click(function(e) {
       e.stopPropagation();
       mouseUpTone();
