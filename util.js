@@ -1599,7 +1599,7 @@ if(typeof $=='function') $(function($) {
     }));
     $toolbar.append(showToolbarForNoteArgs? playButtonGroup : playButton);
     if(isFirstPitch) {
-      $toolbar.append($('<button>').addClass('btn btn-default active disabled').html('<div>Range: <span class="lowest-solfege"></span> to <span class="highest-solfege"></span> (' + getPitchRange(highPitch - lowPitch) + ')</div>'));
+      $toolbar.append($('<button>').addClass('btn btn-default active disabled').html('<div>Plage : <span class="lowest-solfege"></span> to <span class="highest-solfege"></span> (' + getPitchRange(highPitch - lowPitch) + ')</div>'));
       $toolbar.find('.lowest-solfege').html(solFegeNames[lowPitch % 12].slice(0,2) + '<sub>' + Math.floor(lowPitch / 12) + '</sub>');
       $toolbar.find('.highest-solfege').html(solFegeNames[highPitch % 12].slice(0,2) + '<sub>' + Math.floor(highPitch / 12) + '</sub>');
     }
@@ -1613,7 +1613,7 @@ if(typeof $=='function') $(function($) {
       if(!stopTone) stopTone = tones.play(new exsurge.Pitch(score.defaultStartPitch.toInt() - startPitch + thisPitch), {start: true, release: 300});
     };
     pitchButtonGroup.append($('<button>').addClass('btn btn-info').html('<div>' + (isFirstPitch? 'Starting ' : '') + 'Tonalité : <span class="this-pitch"></span></div>' +
-        (isFirstPitch? '<div>Range: <span class="lowest-pitch"></span> to <span class="highest-pitch"></span></div>' : '')).click(function(e) {
+        (isFirstPitch? '<div>Plage : <span class="lowest-pitch"></span> to <span class="highest-pitch"></span></div>' : '')).click(function(e) {
       e.stopPropagation();
       mouseUpTone();
     }).on('mousedown touchstart',mouseDownTone).on('mouseup touchcancel touchend',mouseUpTone));

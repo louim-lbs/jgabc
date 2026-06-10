@@ -1,5 +1,5 @@
 var sundayKeys = [
-    {title:"Proprium Temporum...",en:"Proper of the Time..."},
+    {title:"Temporale...",en:"Temporal..."},
     {key:"Adv1",title:"I Adventus",en:"1st Sunday in Advent"},
     {key:"Adv2",title:"II Adventus",en:"2nd Sunday in Advent"},
     {key:"Adv3",title:"III Adventus",en:"3rd Sunday in Advent"},
@@ -173,7 +173,7 @@ var ultimaeDominicaePostPentecosten = [
     {key:"Pent24",title:"Ultima post Pentecosten",en:"Last Sunday after Pentecost"}
 ];
 var otherKeys = [
-    {title:"Votivæ et Aliæ Missæ...",en:"Votive/Other Masses..."},
+    {title:"Votivæ et Aliæ Missæ...",en:"Votives..."},
     {title:"Selige quidque proprium secundum inceptum",key:"custom",en:"Select each proper by incipit"},
     {key:"nuptialis",title:"Missa nuptialis",en:"Wedding Mass"},
     {key:"defunctorum",title:"Missa pro Defunctis",en:"Mass for the Dead"},
@@ -218,7 +218,7 @@ var otherKeys = [
     {key:"votiveECJ",title:"De Eucharistico Corde Jesu",en:"Of the Eucharistic Heart of Jesus"},
 ];
 var saintKeys = [
-    {title:"Proprium Sanctorum...",en:"Proper of the Saints..."},
+    {title:"Sanctorale...",en:"Sanctoral..."},
     /* START_saintKeys */
     {key:"Jan5",title:"Jan 5: St Telesphorus",en:"Jan 5: St Telesphorus"},
     {key:"Jan11",title:"Jan 11: St Hyginus",en:"Jan 11: St Hyginus"},

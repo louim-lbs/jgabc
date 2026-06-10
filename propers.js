@@ -2984,8 +2984,8 @@ $(function(){
   });
   ordinaryKeys.unshift({
     key: '',
-    title: 'Ordinaria Missæ in cantu gregoriano',
-    en: 'Chant Mass Ordinaries...'
+    title: 'Ordinaria Missæ',
+    en: 'Ordinaire...'
   })
   populate(ordinaryKeys,$selOrdinary);
   var mapNameToTitle = function(e) {
@@ -2996,7 +2996,7 @@ $(function(){
       children: e.children && e.children.map(mapNameToTitle)
     }
   };
-  populate([{name:"Selectionner un chant ad lib.", id: ""}].concat(miscChants).map(mapNameToTitle), $('#selCustom'));
+  populate([{name:"Sélectionner un chant ad libitum", id: ""}].concat(miscChants).map(mapNameToTitle), $('#selCustom'));
   var $customTemplate = $('#divCustom');
   $.each(['','offertorium','communio','ite'], function(i,key) {
     var $custom = $customTemplate;

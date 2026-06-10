@@ -225,12 +225,16 @@ div[part] > div.block:first-child,
 .sticky {
   background-color: var(--ui-bg);
   /* background: linear-gradient(180deg, rgba(22, 22, 21, 0.96), rgba(22, 22, 21, 0.88)); */
-  border-bottom: 0px solid var(--ui-border);
+  border-bottom: 0px solid var(--ui-red);
   backdrop-filter: blur(10px);
   position: static !important;
   top: auto !important;
   z-index: auto;
 }
+
+ .liturgical-select {
+  border-color: rgba(214, 74, 72, 0.3);
+ }
 
 .calendar-control {
   display: none !important;
@@ -263,7 +267,7 @@ div[part] > div.block:first-child,
 
 .global-controls-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 8px;
 }
 
