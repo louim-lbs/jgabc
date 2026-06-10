@@ -572,6 +572,10 @@ body.sans > .right.hide-print:has(> #selStyle) {
   .menu {
     display: none !important;
   }
+
+  .global-controls {
+    margin: 0 0 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
