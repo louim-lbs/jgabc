@@ -26,7 +26,7 @@ html {
 }
 
 body.sans {
-  max-width: 760px;
+  /* max-width: 760px; */
   min-height: 100vh;
   margin: 0 auto !important;
   padding: 18px 14px 88px !important;
@@ -63,8 +63,10 @@ a:focus {
 }
 
 .hide-print.ss-border-bottom {
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--ui-border);
+  padding: 17px;
+  max-height: 70px;
+  margin: 0 0 10px !important;
+  text-align:center;
 }
 
 .nav.nav-pills {
@@ -232,9 +234,9 @@ div[part] > div.block:first-child,
   z-index: auto;
 }
 
- .liturgical-select {
-  border-color: rgba(214, 74, 72, 0.3);
- }
+ /* .liturgical-select {
+  border-color: rgba(255, 255, 255, 0.508);
+ } */
 
 .calendar-control {
   display: none !important;

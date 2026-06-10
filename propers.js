@@ -2984,8 +2984,8 @@ $(function(){
   });
   ordinaryKeys.unshift({
     key: '',
-    title: 'Ordinaria Missæ',
-    en: 'Ordinaire...'
+    title: '🎶 Ordinaria Missæ',
+    en: '🎶 Ordinaire...'
   })
   populate(ordinaryKeys,$selOrdinary);
   var mapNameToTitle = function(e) {
