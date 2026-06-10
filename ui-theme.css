@@ -568,7 +568,7 @@ body.sans > .right.hide-print:has(> #selStyle) {
   border: none !important;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 570px) {
   .menu {
     display: none !important;
   }
