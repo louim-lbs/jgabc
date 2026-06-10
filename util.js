@@ -1270,7 +1270,7 @@ if(typeof window=='object') (function(window) {
         $toolbar.prepend($('<button>').addClass('btn btn-success').text('Ajouter •').click($.extend({action:'addMora'}, base), editorialChange));
       }
       if(noteProperties.acceptsEpisema) {
-        $toolbar.prepend($('<button>').addClass('btn btn-success').text('Ajouter un episème').click($.extend({action:'addEpisema'}, base), editorialChange));
+        $toolbar.prepend($('<button>').addClass('btn btn-success').text('Ajouter un épisème').click($.extend({action:'addEpisema'}, base), editorialChange));
       }
       if(noteProperties.acceptsBarBefore) {
         if(noteProperties.hasBarBefore) $toolbar.prepend($('<button>').addClass('btn btn-success').html('<span class="glyphicon glyphicon-arrow-left"></span> Ajouter carryover').click($.extend({action:'addCarryOverBefore', barBefore: noteProperties.hasBarBefore && noteProperties.prevNotation}, base), editorialChange));
@@ -1294,7 +1294,7 @@ if(typeof window=='object') (function(window) {
             $toolbar.prepend($('<button>').addClass('btn btn-primary').html('<span class="ol">12</span>3').click($.extend({action:'torculus12'}, base), editorialChange));
           }
         }
-        $toolbar.prepend($('<button>').addClass('btn btn-danger').text('Enlever episème').click($.extend({action:'removeEpisema'}, base), editorialChange));
+        $toolbar.prepend($('<button>').addClass('btn btn-danger').text('Enlever épisème').click($.extend({action:'removeEpisema'}, base), editorialChange));
       }
     }
       
@@ -1612,7 +1612,7 @@ if(typeof $=='function') $(function($) {
     var mouseDownTone = function() {
       if(!stopTone) stopTone = tones.play(new exsurge.Pitch(score.defaultStartPitch.toInt() - startPitch + thisPitch), {start: true, release: 300});
     };
-    pitchButtonGroup.append($('<button>').addClass('btn btn-info').html('<div>' + (isFirstPitch? 'Starting ' : '') + 'Tonalité : <span class="this-pitch"></span></div>' +
+    pitchButtonGroup.append($('<button>').addClass('btn btn-info').html('<div> Tonalité ' + (isFirstPitch? 'de départ : ' : ' : ') + '<span class="this-pitch"></span></div>' +
         (isFirstPitch? '<div>Plage : <span class="lowest-pitch"></span> to <span class="highest-pitch"></span></div>' : '')).click(function(e) {
       e.stopPropagation();
       mouseUpTone();

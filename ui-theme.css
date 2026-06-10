@@ -339,7 +339,7 @@ div[part] > .block.hide-print > .flex > .child-other > label.sel-label {
 .extra-verses > label.hide-print > input.cbVersesAdLibitum {
   flex: 0 0 auto;
   margin: 0;
-  transform: translateY(1px);
+  /* transform: translateY(1px); */
 }
 
 .extra-verses > .verses-ad-libitum-default {
