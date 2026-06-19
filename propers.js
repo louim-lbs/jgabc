@@ -11,7 +11,7 @@ var selDay,selTempus='',selPropers,selOrdinaries={},selCustom={},sel={
   kyrie:{},
   gloria:{},
   credo:{},
-  préface:{},
+  preface:{},
   sanctus:{},
   agnus:{},
   ite:{}
@@ -1225,7 +1225,7 @@ $(function(){
     addToHash('tempus', selTempus);
     updateDay();
   };
-  var ordinaryParts = ['asperges','kyrie','gloria','credo','préface','sanctus','agnus','ite'];
+  var ordinaryParts = ['asperges','kyrie','gloria','credo','preface','sanctus','agnus','ite'];
   var selectedOrdinary = function(e){
     selOrdinary = $(this).val();
     addToHash('ordinary', selOrdinary);
@@ -1305,7 +1305,7 @@ $(function(){
         });
         $optGroup.appendTo($select);
       });
-      if(part == 'asperges' || part == 'préface' || part == 'credo') {
+      if(part == 'asperges' || part == 'preface' || part == 'credo') {
         $select.val(selectVal);
       }
       if(selPropers) {
