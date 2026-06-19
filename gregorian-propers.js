@@ -1,7 +1,7 @@
 // from http://www.gregorianbooks.com/propers.html
 gregorianPropers = {
  "advent1": {
-  "title": "1st Sunday of Advent",
+  "title": "1er Dimanche de l'Avent",
   "href": "http://www.introibo.fr/1er-dimanche-de-l-Avent",
   "in": "Ad te levavi",
   "inID": 132,
@@ -23,7 +23,7 @@ gregorianPropers = {
   "coVerses": "Ps 84: 2-5, 7-8, 10-12, 14"
  },
  "advent2": {
-  "title": "2nd Sunday of Advent",
+  "title": "2e Dimanche de l'Avent",
   "href": "http://www.introibo.fr/2eme-dimanche-de-l-Avent",
   "in": "Populus Sion",
   "inID": 356,
@@ -44,7 +44,7 @@ gregorianPropers = {
   "coVerses": "Ps 147: 1-4, 6-9"
  },
  "advent3": {
-  "title": "3rd Sunday of Advent",
+  "title": "3e Dimanche de l'Avent",
   "href": "http://www.introibo.fr/3eme-dimanche-de-l-Avent",
   "in": "Gaudete",
   "inID": 1225,
@@ -64,7 +64,7 @@ gregorianPropers = {
   "coVerses": "Isaiae 35: 1, 2-3, 5-7"
  },
  "advent3wed": {
-  "title": "3rd Week of Advent - Wednesday in Ember Week",
+  "title": "3e Semaine de l'Avent - Mercredi des Quatre-Temps",
   "href": "http://www.introibo.fr/Mercredi-des-Quatre-Temps",
   "in": "Rorate... Ps. Caeli enarrant",
   "inID": 79,
@@ -91,7 +91,7 @@ gregorianPropers = {
   "coVerses": "Ps 18: 2-7"
  },
  "advent3fri": {
-  "title": "3rd Week of Advent - Friday in Ember Week",
+  "title": "3e Semaine de l'Avent - Vendredi des Quatre-Temps",
   "href": "http://www.introibo.fr/Vendredi-des-Quatre-Temps",
   "in": "Prope es tu",
   "inID": 86,
@@ -109,7 +109,7 @@ gregorianPropers = {
   "coVerses": "Ps 49: 1-5"
  },
  "advent3sat": {
-  "title": "3rd Week of Advent - Saturday in Ember Week",
+  "title": "3e Semaine de l'Avent - Samedi des Quatre-Temps",
   "href": "http://www.introibo.fr/Samedi-des-Quatre-Temps",
   "in": "Veni et ostende",
   "inID": 169,
@@ -148,7 +148,7 @@ gregorianPropers = {
   "coVerses": "Ps 18: 2-6"
  },
  "advent4": {
-  "title": "4th Sunday of Advent",
+  "title": "4e Dimanche de l'Avent",
   "href": "http://www.introibo.fr/4eme-dimanche-de-l-Avent",
   "in": "Rorate... Ps. Caeli enarrant",
   "inID": 79,
@@ -169,7 +169,7 @@ gregorianPropers = {
   "coVerses": "Ps 18: 2-7"
  },
  "christmas0": {
-  "title": "24 Dec - Vigil of the Nativity",
+  "title": "24 Dec - Vigile de la Nativité",
   "date": "Dec24",
   "href": "http://www.introibo.fr/Vigile-de-la-Nativite",
   "in": "Hodie scietis",
@@ -190,7 +190,7 @@ gregorianPropers = {
   "coVerses": "Ps 23: 1-8"
  },
  "christmas1": {
-  "title": "Christmas - Midnight Mass",
+  "title": "Noël - Messe de minuit",
   "href": "http://www.introibo.fr/Nativite-du-Seigneur-25-decembre",
   "in": "Dominus dixit",
   "inID": 1175,
@@ -211,7 +211,7 @@ gregorianPropers = {
   "coVerses": "Ps 109"
  },
  "christmas2": {
-  "title": "Christmas - Mass at Dawn",
+  "title": "Noël - Messe de l'Aurore",
   "href": "http://www.introibo.fr/Nativite-du-Seigneur-25-decembre#Aurore",
   "in": "Lux fulgebit",
   "inID": 917,
@@ -231,7 +231,7 @@ gregorianPropers = {
   "coVerses": "Ps 33"
  },
  "christmas3": {
-  "title": "Christmas - Mass of the day",
+  "title": "Noël - Messe du jour",
   "href": "http://www.introibo.fr/Nativite-du-Seigneur-25-decembre#Jour",
   "in": "Puer natus est",
   "inID": 72,
@@ -251,7 +251,7 @@ gregorianPropers = {
   "coVerses": "Ps 97: 1-3, 4-8"
  },
  "st_stephen": {
-  "title": "26 Dec - St Stephen, the First Martyr",
+  "title": "26 Dec - St Étienne, le Premier Martyr",
   "date": "Dec26",
   "href": "http://www.introibo.fr/St-Etienne-26-decembre",
   "in": "Etenim (sederunt)",
@@ -267,11 +267,11 @@ gregorianPropers = {
   "trSept": "Desiderium",
   "trSeptID": 176,
   "trSeptRef": "Ps 20: 3-4",
-  "trSeptRubric": "Sung at a Votive Mass after Septuagesima instead of the previous Alleluia.",
+  "trSeptRubric": "Chanté lors d'une messe votive après la Septuagésime, à la place de l'Alléluia précédent.",
   "alPasch": "Posuisti Domine",
   "alPaschID": 1249,
   "alPaschRef": "Ps 20: 4",
-  "alPaschRubric": "Sung at a Votive Mass in Paschal Time, following the previous Alleluia.",
+  "alPaschRubric": "Chanté lors d'une messe votive du temps pascal, après l'Alléluia précédent.",
   "of": "Elegerunt Apostoli",
   "ofID": 462,
   "ofRef": "Act 6: 5, 7, 59",
@@ -297,11 +297,11 @@ gregorianPropers = {
   "trSept": "Beatus vir",
   "trSeptID": 7670,
   "trSeptRef": "Ps 111: 1-3",
-  "trSeptRubric": "Sung at a Votive Mass after Septuagesima instead of the previous Alleluia.",
+  "trSeptRubric": "Chanté lors d'une messe votive après la Septuagésime, à la place de l'Alléluia précédent.",
   "alPasch": "Justus ut palma",
   "alPaschID": 946,
   "alPaschRef": "Ps 91: 13",
-  "alPaschRubric": "Sung at a Votive Mass in Paschal Time, following the previous Alleluia.",
+  "alPaschRubric": "Chanté lors d'une messe votive du temps pascal, après l'Alléluia précédent.",
   "of": "Justus (ut palma)",
   "ofID": 777,
   "ofRef": "Ps 91: 13",
@@ -328,10 +328,10 @@ gregorianPropers = {
   "trSept": "Effuderunt",
   "trSeptID": 240,
   "trSeptRef": "Ps 78: 3, 10",
-  "trSeptRubric": "Also as explained in the Liber Usualis: « This Tract is said instead of the Alleluia and its verse, unless the feast falls on a Sunday; but it is never said on the Octave day. »",
+  "trSeptRubric": "Comme l'explique également le Liber Usualis : « Ce Trait est récité à la place de l'Alléluia et de son verset, sauf si la fête tombe un dimanche ; mais il n'est jamais récité le jour de l'Octave. »",
   "alPasch": "Sancti tui... florebunt",
   "alPaschID": 800,
-  "alPaschRubric": "Sung at a Votive Mass in Paschal Time following the previous Alleluia.",
+  "alPaschRubric": "Chanté lors d'une messe votive du Temps Pascal, après l'Alléluia précédent.",
   "of": "Anima nostra",
   "ofID": 1031,
   "ofRef": "Ps 123: 7",
@@ -341,7 +341,7 @@ gregorianPropers = {
   "coVerses": "Ps 78: 1-6"
  },
  "sunday_within_octave_christmas": {
-  "title": "Sunday within the Octave of Christmas",
+  "title": "Dimanche dans l'Octave de la Nativité",
   "href": "http://www.introibo.fr/Dimanche-dans-l-Octave-de-la",
   "in": "Dum medium",
   "inID": 564,
@@ -362,7 +362,7 @@ gregorianPropers = {
   "coVerses": "Ps 92"
  },
  "st_thomas_becket": {
-  "title": "29 Dec - St Thomas Becket of Canterbury, Bishop and Martyr",
+  "title": "29 Dec - St Thomas Becket de Canterbury, Évêque et Martyr",
   "date": "Dec29",
   "href": "http://www.introibo.fr/29-decembre",
   "in": "Gaudeamus",
@@ -384,7 +384,7 @@ gregorianPropers = {
   "coVerses": "Ps 22"
  },
  "within_octave_christmas": {
-  "title": "30 Dec - 6th day within the Octave of the Nativity",
+  "title": "30 Dec - 6e jour dans l'Octave de la Nativité",
   "date": "Dec30",
   "href": "http://www.introibo.fr/30-decembre",
   "ref": "propers.html#christmas3"
@@ -397,7 +397,7 @@ gregorianPropers = {
   "trSept": "Beatus vir",
   "trSeptID": 7670,
   "trSeptRef": "Ps 111: 1-3",
-  "trSeptRubric": "Sung at a Votive Mass after Septuagesima instead of the Alleluia.",
+  "trSeptRubric": "Chanté lors d'une messe votive après la Septuagésime, à la place de l'Alléluia précédent.",
   "alPasch": [
    "Tu es sacerdos",
    "Hic est sacerdos"
@@ -408,12 +408,12 @@ gregorianPropers = {
   ],
   "alPaschRef": "Ps 109: 4",
   "alPaschRubric": [
-   "Sung at a Votive Mass in Paschal Time.",
-   "Sung at a Votive Mass in Paschal Time."
+   "Chanté lors d'une Messe Votive du Temps Pascal.",
+   "Chanté lors d'une Messe Votive du Temps Pascal."
   ]
  },
  "christmas_octave": {
-  "title": "1 Jan - Octave day of Christmas (Circumcision of Our Lord)",
+  "title": "1 Jan - Octave de la Nativité (Circoncision de Notre Seigneur)",
   "date": "Jan1",
   "href": "http://www.introibo.fr/Octave-de-la-Nativite-1er-janvier",
   "in": "Puer natus est",
@@ -435,7 +435,7 @@ gregorianPropers = {
   "coVerses": "Ps 97: 1-3, 4-8"
  },
  "most_holy_name_jesus": {
-  "title": "2-5 Jan - Most Holy Name of Jesus (Sunday between Circumcision and Epiphany or 2nd Jan if no Sunday)",
+  "title": "2-5 Jan - Très Saint Nom de Jésus (Dimanche entre la Circoncision et l'Épiphanie ou 2 janvier si pas de Dimanche)",
   "href": "http://www.introibo.fr/Tres-saint-Nom-de-Jesus-Dimanche",
   "in": "In nomine Jesu...Ps. Domine",
   "inID": 1033,
@@ -450,11 +450,11 @@ gregorianPropers = {
   "trSept": "Domine Deus",
   "trSeptID": 1167,
   "trSeptRef": "Ps 79: 20; Cant 2: 14",
-  "trSeptRubric": "Sung at a Votive Mass after Septuagesima instead of the previous Alleluia.",
+  "trSeptRubric": "Chanté lors d'une Messe Votive après la Septuagésime, à la place de l'Alléluia précédent.",
   "alPasch": "Exaltabo te",
   "alPaschID": 954,
   "alPaschRef": "Ps 144: 1",
-  "alPaschRubric": "Sung at a Votive Mass in Paschal Time, following the previous Alleluia.",
+  "alPaschRubric": "Chanté lors d'une Messe Votive du Temps Pascal, après l'Alléluia précédent.",
   "of": "Confitebor tibi... Deus",
   "ofID": 980,
   "ofRef": "Ps 85: 12, 5",
@@ -464,20 +464,20 @@ gregorianPropers = {
   "coVerses": "Ps 85: 1, 11-13, 15-16"
  },
  "st_telesphorus": {
-  "title": "5 Jan - St Telesphorus, Pope and Martyr (Memory)",
+  "title": "5 Jan - St Telesphorus, Pape et Martyr (Mémoire)",
   "date": "Jan5",
   "href": "http://www.introibo.fr/05-01-St-Telesphore-pape-et-martyr",
   "ref": "saints.html#mass_holy_pope"
  },
  "epiphany_eve": {
-  "title": "5 Jan - Eve of the Epiphany",
+  "title": "5 Jan - Vigile de l'Épiphany",
   "date": "Jan5",
   "href": "http://www.introibo.fr/Vigile-de-l-Epiphanie-avant-1955",
   "ref": "propers.html#sunday_within_octave_christmas",
   "refRubric": "Suppressed in 1955."
  },
  "epiphany": {
-  "title": "6 Jan - The Epiphany of Our Lord",
+  "title": "6 Jan - L'Épiphanie de Notre Seigneur",
   "date": "Jan6",
   "href": "http://www.introibo.fr/Epiphanie-du-Seigneur-6-janvier",
   "in": "Ecce (advenit)",
@@ -499,7 +499,7 @@ gregorianPropers = {
   "coVerses": "Ps 71: 2-3, 7-8, 10-12, 17-18"
  },
  "holy_family": {
-  "title": "7-13 Jan - The Holy Family of Jesus, Mary and Joseph (1st Sunday after Epiphany)",
+  "title": "7-13 Jan - La Sainte Famille de Jésus, Marie et Joseph (1er Dimanche après l'Épiphanie)",
   "href": "http://www.introibo.fr/La-Sainte-Famille-dimanche-apres-l",
   "in": "Exsultet gaudio",
   "inID": 336,
@@ -513,7 +513,7 @@ gregorianPropers = {
   "alRef": "Isai 45: 15",
   "trSept": "Hostiam",
   "trSeptID": 1153,
-  "trSeptRubric": "Sung at a Votive Mass after Septuagesima instead of the previous Alleluia.",
+  "trSeptRubric": "Chanté lors d'une Messe Votive après la Septuagésime, à la place de l'Alléluia précédent.",
   "alPasch": [
    "Beatus homo",
    "Vita nostra"
@@ -523,8 +523,8 @@ gregorianPropers = {
    122
   ],
   "alPaschRubric": [
-   "Sung at a Votive Mass in Paschal Time.",
-   "Sung at a Votive Mass in Paschal Time."
+   "Chanté lors d'une Messe Votive du Temps Pascal.",
+   "Chanté lors d'une Messe Votive du Temps Pascal."
   ],
   "of": "Tulerunt (Jesum)",
   "ofID": 93,
@@ -535,7 +535,7 @@ gregorianPropers = {
   "coVerses": "Ps 97: 1-3, 4-8; Ps 83: 2-3, 9-13"
  },
  "epiphany1": {
-  "title": "Sunday within the Octave of the Epiphany or 1st Sunday after Epiphany",
+  "title": "Dimanche dans l'Octave de l'Épiphanie ou 1er Dimanche après l'Épiphanie",
   "href": "http://www.introibo.fr/Messe-du-1er-dimanche-apres-l",
   "in": "In excelso throno",
   "inID": 20,
@@ -555,20 +555,20 @@ gregorianPropers = {
   "coVerses": "Ps 26: 1, 4-5, 8, 10"
  },
  "st_hyginus": {
-  "title": "11 Jan - St Hyginus, Pope and Martyr (Memory)",
+  "title": "11 Jan - St Hyginus, Pape et Martyr (Mémoire)",
   "date": "Jan11",
   "href": "http://www.introibo.fr/11-01-St-Hygin-pape-et-martyr",
   "ref": "saints.html#mass_holy_pope"
  },
  "epiphany_baptism": {
-  "title": "13 Jan - Octave of Epiphany - Commemoration of Baptism of Our Lord Jesus Christ",
+  "title": "13 Jan - Octave de l'Épiphanie - Commémoration du Bapteme de Notre Seigneur Jésus-Christ",
   "date": "Jan13",
   "href": "http://www.introibo.fr/Bapteme-du-Seigneur-13-janvier",
   "ref": "propers.html#epiphany",
-  "refRubric": "There is no commemoration if Holy Family falls on this day."
+  "refRubric": "Il n'y a pas de commémoration si la Sainte Famille tombe ce jour."
  },
  "epiphany2": {
-  "title": "2nd Sunday after Epiphany",
+  "title": "2e Dimanche après l'Épiphanie",
   "href": "http://www.introibo.fr/2eme-dimanche-apres-l-Epiphanie",
   "in": "Omnis terra",
   "inID": 13,
@@ -590,7 +590,7 @@ gregorianPropers = {
   "coVerses": "Ps 65: 1-3, 5-6, 8-9"
  },
  "epiphany3": {
-  "title": "3rd Sunday after Epiphany",
+  "title": "3e Dimanche après l'Épiphanie",
   "href": "http://www.introibo.fr/3eme-dimanche-apres-l-Epiphanie",
   "in": "Adorate (Deum)",
   "inID": 1123,
@@ -612,7 +612,7 @@ gregorianPropers = {
   "coVerses": "Ps 96: 1, 4-6, 7-10, 12"
  },
  "septuagesima": {
-  "title": "Septuagesima",
+  "title": "Septuagésime",
   "href": "http://www.introibo.fr/Dimanche-de-la-Septuagesime",
   "in": "Circumdederunt me",
   "inID": 1168,
@@ -634,7 +634,7 @@ gregorianPropers = {
   "coVerses": "Ps 30: 2-6, 7-9"
  },
  "sexagesima": {
-  "title": "Sexagesima",
+  "title": "Sexagésime",
   "href": "http://www.introibo.fr/Dimanche-de-la-Sexagesime",
   "in": "Exsurge",
   "inID": 529,
@@ -656,7 +656,7 @@ gregorianPropers = {
   "coVerses": "Ps 42: 1-3, 4-6"
  },
  "quinquagesima": {
-  "title": "Quinquagesima",
+  "title": "Quinquagésime",
   "href": "http://www.introibo.fr/Dimanche-de-la-Quinquasegime",
   "in": "Esto mihi",
   "inID": 1381,
@@ -678,7 +678,7 @@ gregorianPropers = {
   "coVerses": "Ps 77: 1, 3, 4, 23-25, 27-28"
  },
  "lent0": {
-  "title": "Ash Wednesday (Quadragesima)",
+  "title": "Mercredi des Cendres (Quadragésime)",
   "href": "http://www.introibo.fr/Mercredi-des-Cendres",
   "in": "Misereris omnium",
   "inID": 533,
@@ -700,7 +700,7 @@ gregorianPropers = {
   "coVerses": "Ps 1"
  },
  "lent0thu": {
-  "title": "Thursday after Ash Wednesday",
+  "title": "Jeudi après les Cendres",
   "href": "http://www.introibo.fr/Jeudi-apres-les-Cendres",
   "in": "Dum clamarem",
   "inID": 299,
@@ -719,7 +719,7 @@ gregorianPropers = {
   "coVerses": "Ps 50: 3, 10, 12-15, 17, 19-20"
  },
  "lent0fri": {
-  "title": "Friday after Ash Wednesday",
+  "title": "Vendredi après les Cendres",
   "href": "http://www.introibo.fr/Vendredi-apres-les-Cendres",
   "in": "Audivit (Dominus)",
   "inID": 45,
@@ -740,7 +740,7 @@ gregorianPropers = {
   "coVerses": "Ps 2: 1-5, 10, 13"
  },
  "lent1": {
-  "title": "1st Sunday of Lent (or 1st Sunday in Quadragesima)",
+  "title": "1er dimanche de Carême",
   "href": "http://www.introibo.fr/1er-Dimanche-de-Careme",
   "in": "Invocabit me",
   "inID": 327,
@@ -762,7 +762,7 @@ gregorianPropers = {
   "coVerses": "Ps 90: 1-3, 11-15"
  },
  "lent1mon": {
-  "title": "1st Week of Lent - Monday",
+  "title": "1re semaine de Carême - Lundi",
   "href": "http://www.introibo.fr/Lundi-de-la-1ere-semaine-de-Careme",
   "in": "Sicut oculi",
   "inID": 1330,
@@ -783,7 +783,7 @@ gregorianPropers = {
   "coVerses": "Ps 144: 1, 5, 10-13, 15-16"
  },
  "lent1tue": {
-  "title": "1st Week of Lent - Tuesday",
+  "title": "1re semaine de Carême - Mardi",
   "href": "http://www.introibo.fr/Mardi-de-la-1ere-semaine-de-Careme",
   "in": "Domine refugium",
   "inID": 549,
@@ -802,7 +802,7 @@ gregorianPropers = {
   "coVerses": "Ps 4: 4-8"
  },
  "lent1wed": {
-  "title": "1st Week of Lent - Wednesday in Ember Week",
+  "title": "1re semaine de Carême - Mercredi des Quatre-Temps",
   "href": "http://www.introibo.fr/Mercredi-des-Quatre-Temps-1ere",
   "in": "Reminiscere",
   "inID": 1294,
@@ -824,7 +824,7 @@ gregorianPropers = {
   "coVerses": "Ps 5: 5-8, 12-13"
  },
  "lent1thu": {
-  "title": "1st Week of Lent - Thursday",
+  "title": "1re semaine de Carême - Jeudi",
   "href": "http://www.introibo.fr/Jeudi-de-la-1ere-semaine-de-Careme",
   "in": "Confessio",
   "inID": 956,
@@ -843,7 +843,7 @@ gregorianPropers = {
   "coVerses": "Ps 110: 1-10"
  },
  "lent1fri": {
-  "title": "1st Week of Lent - Friday in Ember Week",
+  "title": "1re semaine de Carême - Vendredi des Quatre-Temps",
   "href": "http://www.introibo.fr/Vendredi-des-Quatre-Temps-1ere",
   "in": "De necessitatibus",
   "inID": 100,
@@ -864,7 +864,7 @@ gregorianPropers = {
   "coVerses": "Ps 6: 2-7"
  },
  "lent1sat": {
-  "title": "1st Week of Lent - Saturday in Ember Week",
+  "title": "1re semaine de Carême - Samedi des Quatre-Temps",
   "href": "http://www.introibo.fr/Samedi-des-Quatre-Temps-1ere",
   "in": "Intret oratio",
   "inID": 238,
@@ -903,7 +903,7 @@ gregorianPropers = {
   "coVerses": "Ps 7: 3, 7-8, 9, 11, 18"
  },
  "lent2": {
-  "title": "2nd Sunday of Lent",
+  "title": "2e Dimanche de Carême",
   "href": "http://www.introibo.fr/2eme-Dimanche-de-Careme",
   "in": "Reminiscere",
   "inID": 1294,
@@ -925,7 +925,7 @@ gregorianPropers = {
   "coVerses": "Ps 5: 5-8, 12-13"
  },
  "lent2mon": {
-  "title": "2nd Week of Lent - Monday",
+  "title": "2e semaine de Carême - Lundi",
   "href": "http://www.introibo.fr/Lundi-de-la-2eme-semaine-de-Careme",
   "in": "Redime me",
   "inID": 1314,
@@ -947,7 +947,7 @@ gregorianPropers = {
   "coVerses": "Ps 8: 2-8"
  },
  "lent2tue": {
-  "title": "2nd Week of Lent - Tuesday",
+  "title": "2e semaine de Carême - Mardi",
   "href": "http://www.introibo.fr/Mardi-de-la-2eme-semaine-de-Careme",
   "in": "Tibi dixit",
   "inID": 751,
@@ -966,7 +966,7 @@ gregorianPropers = {
   "coVerses": "Ps 9: 4, 11-13, 15"
  },
  "lent2wed": {
-  "title": "2nd Week of Lent - Wednesday",
+  "title": "2e semaine de Carême - Mercredi",
   "href": "http://www.introibo.fr/Mercredi-de-la-2eme-semaine-de",
   "in": "Ne derelinquas me",
   "inID": 323,
@@ -988,7 +988,7 @@ gregorianPropers = {
   "coVerses": "Ps 10: 2-7"
  },
  "lent2thu": {
-  "title": "2nd Week of Lent - Thursday",
+  "title": "2e semaine de Carême - Jeudi",
   "href": "http://www.introibo.fr/Jeudi-de-la-2eme-semaine-de-Careme",
   "in": "Deus in adjutorium",
   "inID": 501,
@@ -1007,7 +1007,7 @@ gregorianPropers = {
   "coVerses": "Ps 118: 1-2, 11, 49-50, 72, 103, 105, 162"
  },
  "lent2fri": {
-  "title": "2nd Week of Lent - Friday",
+  "title": "2e semaine de Carême - Vendredi",
   "href": "http://www.introibo.fr/Vendredi-de-la-2eme-semaine-de",
   "in": "Ego autem cum justitia",
   "inID": 830,
@@ -1029,7 +1029,7 @@ gregorianPropers = {
   "coVerses": "Ps 11: 2-7"
  },
  "lent2sat": {
-  "title": "2nd Week of Lent - Saturday",
+  "title": "2e semaine de Carême - Samedi",
   "href": "http://www.introibo.fr/Samedi-de-la-2eme-semaine-de",
   "in": "Lex Domini",
   "inID": 1216,
@@ -1048,7 +1048,7 @@ gregorianPropers = {
   "coVerses": "Ps 31: 1-3, 5, 8, 10-11"
  },
  "lent3": {
-  "title": "3rd Sunday of Lent",
+  "title": "3e Dimanche de Carême",
   "href": "http://www.introibo.fr/3eme-dimanche-de-Careme",
   "in": "Oculi mei",
   "inID": 916,
@@ -1070,7 +1070,7 @@ gregorianPropers = {
   "coVerses": "Ps 83: 2-3, 9-13"
  },
  "lent3mon": {
-  "title": "3rd Week of Lent - Monday",
+  "title": "3e semaine de Carême - Lundi",
   "href": "http://www.introibo.fr/Lundi-de-la-3eme-semaine-de-Careme",
   "in": "In Deo laudabo",
   "inID": 839,
@@ -1091,7 +1091,7 @@ gregorianPropers = {
   "coVerses": "Ps 13: 1-3, 6"
  },
  "lent3tue": {
-  "title": "3rd Week of Lent - Tuesday",
+  "title": "3e semaine de Carême - Mardi",
   "href": "http://www.introibo.fr/Mardi-de-la-3eme-semaine-de-Careme",
   "in": "Ego clamavi",
   "inID": 558,
@@ -1110,7 +1110,7 @@ gregorianPropers = {
   "coVerses": "Ps 14: 3-5"
  },
  "lent3wed": {
-  "title": "3rd Week of Lent - Wednesday",
+  "title": "3e semaine de Carême - Mercredi",
   "href": "http://www.introibo.fr/Mercredi-de-la-3eme-semaine-de",
   "in": "Ego autem in... speravi",
   "inID": 1049,
@@ -1131,7 +1131,7 @@ gregorianPropers = {
   "coVerses": "Ps 15: 1-2, 5-10"
  },
  "lent3thu": {
-  "title": "3rd Week of Lent - Thursday",
+  "title": "3e semaine de Carême - Jeudi",
   "href": "http://www.introibo.fr/Jeudi-de-la-3eme-semaine-de-Careme",
   "in": "Salus populi",
   "inID": 389,
@@ -1150,7 +1150,7 @@ gregorianPropers = {
   "coVerses": "Ps 118: 1-3, 8-9, 26, 59-60, 134, 168"
  },
  "lent3fri": {
-  "title": "3rd Week of Lent - Friday",
+  "title": "3e semaine de Carême - Vendredi",
   "href": "http://www.introibo.fr/Vendredi-de-la-3eme-semaine-de",
   "in": "Fac mecum Domine",
   "inID": 733,
@@ -1171,7 +1171,7 @@ gregorianPropers = {
   "coVerses": "Is 12: 1-6"
  },
  "lent3sat": {
-  "title": "3rd Week of Lent - Saturday",
+  "title": "3e semaine de Carême - Samedi",
   "href": "http://www.introibo.fr/Samedi-de-la-3eme-semaine-de",
   "in": "Verba mea",
   "inID": 1248,
@@ -1189,7 +1189,7 @@ gregorianPropers = {
   "coVerses": "Ps 31: 1-3, 5, 8, 10-11"
  },
  "lent4": {
-  "title": "4th Sunday of Lent",
+  "title": "4e Dimanche de Carême",
   "href": "http://www.introibo.fr/4eme-Dimanche-de-Careme",
   "in": "Laetare Jerusalem",
   "inID": 653,
@@ -1211,7 +1211,7 @@ gregorianPropers = {
   "coVerses": "Ps 121: 1-2, 5-9"
  },
  "lent4mon": {
-  "title": "4th Week of Lent - Monday",
+  "title": "4e semaine de Carême - Lundi",
   "href": "http://www.introibo.fr/Lundi-de-la-4eme-semaine-de-Careme",
   "in": "Deus in nomine tuo",
   "inID": 458,
@@ -1232,7 +1232,7 @@ gregorianPropers = {
   "coVerses": "Ps 18: 2-5, 8, 15"
  },
  "lent4tue": {
-  "title": "4th Week of Lent - Tuesday",
+  "title": "4e semaine de Carême - Mardi",
   "href": "http://www.introibo.fr/Mardi-de-la-4eme-semaine-de-Careme",
   "in": "Exaudi Deus",
   "inID": 904,
@@ -1251,7 +1251,7 @@ gregorianPropers = {
   "coVerses": "Ps 19: 2-5, 7-8"
  },
  "lent4wed": {
-  "title": "4th Week of Lent - Wednesday",
+  "title": "4e semaine de Carême - Mercredi",
   "href": "http://www.introibo.fr/Mercredi-de-la-4eme-semaine-de",
   "in": "Dum sanctificatus",
   "inID": 418,
@@ -1282,7 +1282,7 @@ gregorianPropers = {
   "coVerses": "Ps 33: 1, 3-6, 8"
  },
  "lent4thu": {
-  "title": "4th Week of Lent - Thursday",
+  "title": "4e semaine de Carême - Jeudi",
   "href": "http://www.introibo.fr/Jeudi-de-la-4eme-semaine-de-Careme",
   "in": "Laetetur cor",
   "inID": 864,
@@ -1300,7 +1300,7 @@ gregorianPropers = {
   "coVerses": "Ps 70: 1-2, 3, 5-6, 9, 12, 14, 23"
  },
  "lent4fri": {
-  "title": "4th Week of Lent - Friday",
+  "title": "4e semaine de Carême - Vendredi",
   "href": "http://www.introibo.fr/Vendredi-de-la-4eme-semaine-de",
   "in": "Meditatio",
   "inID": 572,
@@ -1322,7 +1322,7 @@ gregorianPropers = {
   "coVerses": "Ps 21: 2-3, 22-25"
  },
  "lent4sat": {
-  "title": "4th Week of Lent - Saturday (Saturday before the 1st Sunday of the Passion)",
+  "title": "4e semaine de Carême - Samedi (Samedi avant le 1er Dimanche de la Passion)",
   "href": "http://www.introibo.fr/Samedi-de-la-4eme-semaine-de",
   "in": "Sitientes",
   "inID": 776,
@@ -1340,7 +1340,7 @@ gregorianPropers = {
   "coVerses": "Ps 22: 3"
  },
  "lent5": {
-  "title": "Passion Sunday (1st Sunday of the Passion)",
+  "title": "Dimanche de la Passion (1er Dimanche de la Passion)",
   "href": "http://www.introibo.fr/Dimanche-de-la-Passion",
   "in": "Judica me",
   "inID": 78,
@@ -1362,7 +1362,7 @@ gregorianPropers = {
   "coVerses": "Ps 115"
  },
  "lent5mon": {
-  "title": "Passion Week - Monday",
+  "title": "Semaine de la Passion - Lundi",
   "href": "http://www.introibo.fr/Lundi-de-la-Passion",
   "in": "Miserere... conculcavit",
   "inID": 138,
@@ -1384,7 +1384,7 @@ gregorianPropers = {
   "coVerses": "Ps 23: 1-7"
  },
  "lent5tue": {
-  "title": "Passion Week - Tuesday",
+  "title": "Semaine de la Passion - Mardi",
   "href": "http://www.introibo.fr/Mardi-de-la-Passion",
   "in": "Exspecta Dominum",
   "inID": 60,
@@ -1403,7 +1403,7 @@ gregorianPropers = {
   "coVerses": "Ps 24: 1-3, 17-21"
  },
  "lent5wed": {
-  "title": "Passion Week - Wednesday",
+  "title": "Semaine de la Passion - Mercredi",
   "href": "http://www.introibo.fr/Mercredi-de-la-Passion",
   "in": "Liberator meus",
   "inID": 1054,
@@ -1424,7 +1424,7 @@ gregorianPropers = {
   "coVerses": "Ps 25: 1-3, 8-9, 11"
  },
  "lent5thu": {
-  "title": "Passion Week - Thursday",
+  "title": "Semaine de la Passion - Jeudi",
   "href": "http://www.introibo.fr/Jeudi-de-la-Passion",
   "in": "Omnia quae fecisti",
   "inID": 1056,
@@ -1443,7 +1443,7 @@ gregorianPropers = {
   "coVerses": "Ps 118: 1-2, 25, 28, 41, 74, 76, 81-82, 114"
  },
  "lent5fri": {
-  "title": "Passion Week - Friday",
+  "title": "Semaine de la Passion - Vendredi",
   "href": "http://www.introibo.fr/Vendredi-de-la-Passion",
   "in": "Miserere... tribulor",
   "inID": 267,
@@ -1464,7 +1464,7 @@ gregorianPropers = {
   "coVerses": "Ps 26: 1, 2-3, 9-10, 13-14"
  },
  "lent6": {
-  "title": "Palm Sunday (2nd Sunday of the Passion), with procession of palms",
+  "title": "Dimanche des Rameaux (2e Dimanche de la Passion), avec procession des rameaux",
   "href": "http://www.introibo.fr/Dimanche-des-Rameaux",
   "in": "Domine ne longe",
   "inID": 1171,
@@ -1486,7 +1486,7 @@ gregorianPropers = {
   "coVerses": "Ps 21: 2-3, 5, 7, 13, 17-18, 22-24, 28, 31; Ps 115"
  },
  "monday_holy_week": {
-  "title": "Monday in Holy Week",
+  "title": "Lundi de la Semaine Sainte",
   "href": "http://www.introibo.fr/Lundi-Saint,273",
   "in": "Judica Domine",
   "inID": 226,
@@ -1507,7 +1507,7 @@ gregorianPropers = {
   "coVerses": "Ps 34: 1-5"
  },
  "tuesday_holy_week": {
-  "title": "Tuesday in Holy Week",
+  "title": "Mardi de la Semaine Sainte",
   "href": "http://www.introibo.fr/Mardi-Saint,274",
   "in": "Nos autem",
   "inID": 374,
@@ -1525,7 +1525,7 @@ gregorianPropers = {
   "coVerses": "Ps 68: 2-3, 16, 24, 31, 35"
  },
  "wednesday_holy_week": {
-  "title": "Wednesday in Holy Week",
+  "title": "Mercredi de la Semaine Sainte",
   "href": "http://www.introibo.fr/Mercredi-Saint,581",
   "in": "In nomine Domini",
   "inID": 236,
@@ -1546,7 +1546,7 @@ gregorianPropers = {
   "coVerses": "Ps 101: 2-3, 5, 18"
  },
  "mass_holy_oils": {
-  "title": "Mass of the Holy Oils",
+  "title": "Messe des Saintes Huiles",
   "in": "Facies unctionis",
   "inID": 1131,
   "inVerses": "Ps 88: 3-4",
@@ -1558,7 +1558,7 @@ gregorianPropers = {
   "coID": 257
  },
  "maundy_thursday": {
-  "title": "Maundy Thursday Solemn Mass",
+  "title": "Jeudi saint en la Cène du Seigneur",
   "href": "http://www.introibo.fr/Jeudi-saint-en-la-Cene-du-Seigneur",
   "in": "Nos autem",
   "inID": 374,
@@ -1577,7 +1577,7 @@ gregorianPropers = {
   "coVerses": "Ps 22; Ps 71; Ps 103; Ps 150"
  },
  "easter_sunday": {
-  "title": "Easter Sunday",
+  "title": "Dimanche de Pâques",
   "href": "http://www.introibo.fr/Dimanche-de-Paque",
   "in": "Resurrexi",
   "inID": 1043,
@@ -1601,7 +1601,7 @@ gregorianPropers = {
   "coVerses": "Ps 117: 1-2, 5, 8, 10-11, 13-17, 21-26"
  },
  "easter_monday": {
-  "title": "Easter Monday",
+  "title": "Lundi de Pâques",
   "href": "http://www.introibo.fr/Lundi-de-Paques",
   "in": "Introduxit vos",
   "inID": 1315,
@@ -1625,7 +1625,7 @@ gregorianPropers = {
   "coVerses": "Ps 117: 1-2, 5, 8, 10-11, 13-17, 21-26"
  },
  "easter_tuesday": {
-  "title": "Easter Tuesday",
+  "title": "Mardi de Pâques",
   "href": "http://www.introibo.fr/Mardi-de-Paques",
   "in": "Aqua sapientiae",
   "inID": 1135,
@@ -1647,7 +1647,7 @@ gregorianPropers = {
   "coVerses": "Ps 104: 1-5, 43-45"
  },
  "easter_wednesday": {
-  "title": "Wednesday in Easter Week",
+  "title": "Mercredi de Pâques",
   "href": "http://www.introibo.fr/Mercredi-de-Paques",
   "in": "Venite benedicti",
   "inID": 997,
@@ -1670,7 +1670,7 @@ gregorianPropers = {
   "coVerses": "Ps 95: 1-4, 7-9"
  },
  "easter_thursday": {
-  "title": "Thursday in Easter Week",
+  "title": "Jeudi de Pâques",
   "href": "http://www.introibo.fr/Jeudi-de-Paques",
   "in": "Victricem manum",
   "inID": 1332,
@@ -1692,7 +1692,7 @@ gregorianPropers = {
   "coVerses": "Ps 104: 1-5, 43-45"
  },
  "easter_friday": {
-  "title": "Friday in Easter Week",
+  "title": "Vendredi de Pâques",
   "href": "http://www.introibo.fr/Vendredi-de-Paques",
   "in": "Eduxit eos",
   "inID": 758,
@@ -1715,7 +1715,7 @@ gregorianPropers = {
   "coVerses": "Ps 77: 1, 3, 4, 23-25, 27-28"
  },
  "easter_saturday": {
-  "title": "Saturday in Easter Week (Sabbato in Albis)",
+  "title": "Samedi de Pâques (Sabbato in Albis)",
   "href": "http://www.introibo.fr/Samedi-de-Paques",
   "in": "Eduxit Dominus",
   "inID": 974,
@@ -1744,7 +1744,7 @@ gregorianPropers = {
   "coVerses": "Ps 104: 1-5, 43-45"
  },
  "easter1": {
-  "title": "1st Sunday after Easter - Low Sunday / Quasimodo / Dominica in Albis",
+  "title": "1er Diman he après Pâques - Dimanche de Quasimodo / Dominica in Albis",
   "href": "http://www.introibo.fr/Dimanche-in-Albis",
   "in": "Quasi modo",
   "inID": 25,
@@ -1772,7 +1772,7 @@ gregorianPropers = {
   "coVerses": "Ps 117: 1-2, 5, 8, 10-11, 13-17, 21-26"
  },
  "easter2": {
-  "title": "2nd Sunday after Easter",
+  "title": "2e Dimanche après Pâques",
   "href": "http://www.introibo.fr/2eme-Dimanche-apres-Paques",
   "in": "Misericordia Domini",
   "inID": 135,
@@ -1800,7 +1800,7 @@ gregorianPropers = {
   "coVerses": "Ps 22"
  },
  "easter3": {
-  "title": "3rd Sunday after Easter",
+  "title": "3e Dimanche après Pâques",
   "href": "http://www.introibo.fr/3eme-Dimanche-apres-Paques",
   "in": "Jubilate Deo",
   "inID": 536,
@@ -1828,7 +1828,7 @@ gregorianPropers = {
   "coVerses": "Ps 65: 1-2, 4-6, 8-9, 16, 20"
  },
  "easter4": {
-  "title": "4th Sunday after Easter",
+  "title": "4e Dimanche après Pâques",
   "href": "http://www.introibo.fr/4eme-Dimanche-apres-Paques",
   "in": "Cantate Domino",
   "inID": 42,
@@ -1856,7 +1856,7 @@ gregorianPropers = {
   "coVerses": "Ps 97: 1, 2-7"
  },
  "easter5": {
-  "title": "5th Sunday after Easter",
+  "title": "5e Dimanche après Pâques",
   "href": "http://www.introibo.fr/5eme-Dimanche-apres-Paques",
   "in": "Vocem jucunditatis",
   "inID": 585,
@@ -1883,7 +1883,7 @@ gregorianPropers = {
   "coVerses": "Ps 95: 1, 3-4, 8-10, 13"
  },
  "rogations": {
-  "title": "Rogations - Greater and lesser litanies",
+  "title": "Rogations - Grandes et petites litanies",
   "href": "http://www.introibo.fr/Lundi-des-Rogations",
   "in": "Exaudivit",
   "inID": 939,
@@ -1909,7 +1909,7 @@ gregorianPropers = {
   "coVerses": "Ps 30: 2-6, 7-9"
  },
  "rogations_out_pt": {
-  "title": "Rogations - Greater and lesser litanies (Out of Paschal Time)",
+  "title": "Rogations - Grandes et petites litanies (En dehors du Temps Pascal)",
   "in": "Exaudivit",
   "inID": 451,
   "inRef": "Ps 17: 7, 2-3",
@@ -1931,7 +1931,7 @@ gregorianPropers = {
   "coVerses": "Ps 30: 2-6, 7-9"
  },
  "ascension_vigil": {
-  "title": "Vigil of the Ascension",
+  "title": "Vigile de l'Ascension",
   "href": "http://www.introibo.fr/Vigile-de-l-Ascension",
   "ref": "propers.html#easter5"
  },
@@ -1964,12 +1964,12 @@ gregorianPropers = {
   "coVerses": "Ps 67: 2, 5, 19-21, 25, 27, 29-30, 33"
  },
  "ascension_friday": {
-  "title": "Friday after Ascension",
+  "title": "Vendredi après l'Ascension",
   "href": "http://www.introibo.fr/L-Ascension-du-Seigneur",
   "ref": "propers.html#ascension"
  },
  "ascension1": {
-  "title": "Sunday after Ascension",
+  "title": "Dimanche après l'Ascension",
   "href": "http://www.introibo.fr/Dimanche-pres-l-Ascension",
   "in": "Exaudi Domine... Alleluia",
   "inID": 990,
@@ -1997,7 +1997,7 @@ gregorianPropers = {
   "coVerses": "Ps 121: 1-2, 5-9"
  },
  "pentecost_vigil": {
-  "title": "Vigil of Pentecost (Whitsun Eve)",
+  "title": "Vigile de la Pentecôte",
   "href": "http://www.introibo.fr/Vigile-de-la-Pentecote",
   "in": "Dum sanctificatus",
   "inID": 418,
@@ -2017,7 +2017,7 @@ gregorianPropers = {
   "coVerses": "Ps 103: 1, 30-31, 33-34"
  },
  "pentecost": {
-  "title": "Pentecost (Whit Sunday)",
+  "title": "Dimanche de la Pentecôte",
   "href": "http://www.introibo.fr/Dimanche-de-la-Pentecote",
   "in": "Spiritus... replevit... alleluia",
   "inID": 861,
@@ -2047,7 +2047,7 @@ gregorianPropers = {
   "coVerses": "Ps 67: 2-4, 12, 27, 29"
  },
  "pentecost_mon": {
-  "title": "Monday in Whitsun Week (Whit Monday)",
+  "title": "Lundi de la Pentecôte",
   "href": "http://www.introibo.fr/Lundi-de-la-Pentecote",
   "in": "Cibavit eos... alleluia",
   "inID": 715,
@@ -2076,7 +2076,7 @@ gregorianPropers = {
   "coVerses": "Ps 50: 3, 9-10, 12-15, 17, 20"
  },
  "pentecost_tue": {
-  "title": "Tuesday in Whitsun Week (Whit Tuesday)",
+  "title": "Mardi de la Pentecôte",
   "href": "http://www.introibo.fr/Mardi-de-la-Pentecote",
   "in": "Accipite",
   "inID": 1278,
@@ -2105,7 +2105,7 @@ gregorianPropers = {
   "coVerses": "Ps 77: 1-3, 4-5, 7, 23-25, 29, 71-72"
  },
  "pentecost_wed": {
-  "title": "Wednesday in Whitsun Week (Ember Wednesday)",
+  "title": "Mercredi des Quatre-Temps de Pentecôte",
   "href": "http://www.introibo.fr/Mercredi-des-Quatre-Temps-de",
   "in": "Deus dum egredereris",
   "inID": 822,
@@ -2135,7 +2135,7 @@ gregorianPropers = {
   "coVerses": "Ps 121"
  },
  "pentecost_fri": {
-  "title": "Friday in Whitsun Week (Ember Friday)",
+  "title": "Vendredi des Quatre-Temps de Pentecôte",
   "href": "http://www.introibo.fr/Vendredi-des-Quatre-Temps-de",
   "in": "Repleatur",
   "inID": 557,
@@ -2164,7 +2164,7 @@ gregorianPropers = {
   "coVerses": "Ps 121"
  },
  "pentecost_sat": {
-  "title": "Saturday in Whitsun Week (Ember Saturday)",
+  "title": "Samedi des Quatre-Temps de Pentecôte",
   "href": "http://www.introibo.fr/Samedi-des-Quatre-Temps-de",
   "in": "Caritas Dei",
   "inID": 1228,
@@ -2204,7 +2204,7 @@ gregorianPropers = {
   "coVerses": "Ps 77: 1-3, 4-5, 7, 23-25, 29, 71-72"
  },
  "p1": {
-  "title": "1st Sunday after Pentecost - Trinity Sunday",
+  "title": "1er Dimanche après la Pentecôte - Dimanche de la Trinité",
   "href": "http://www.introibo.fr/Fete-de-la-Trinite",
   "in": "Benedicta sit",
   "inID": 349,
@@ -2226,7 +2226,7 @@ gregorianPropers = {
   "coVerses": "Tobias 13: 1, 3, 5-6, 8-10"
  },
  "1st_sunday_after_pentecost": {
-  "title": "Former 1st Sunday after Pentecost",
+  "title": "Ancien 1er Dimanche après la Pentecôte",
   "in": "Domine in tua misericordia",
   "inID": 146,
   "gr": "Ego dixi",
@@ -2242,7 +2242,7 @@ gregorianPropers = {
   "coVerses": "Ps 9: 4, 11-13, 15"
  },
  "cc": {
-  "title": "Corpus Christi",
+  "title": "Fête-Dieu - Corpus Christi",
   "href": "http://www.introibo.fr/Fete-Dieu-ou-Fete-du-Tres-Saint",
   "in": "Cibavit eos... alleluia",
   "inID": 715,
@@ -2266,7 +2266,7 @@ gregorianPropers = {
   "coVerses": "Ps 22"
  },
  "p2": {
-  "title": "2nd Sunday after Pentecost (formerly known as Sunday within the Octave of Corpus Christi)",
+  "title": "2e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/2eme-Dimanche-apres-la-Pentecote",
   "in": "Factus est Dominus",
   "inID": 1111,
@@ -2288,7 +2288,7 @@ gregorianPropers = {
   "coVerses": "Ps 12: 1-6"
  },
  "sh": {
-  "title": "Sacred Heart of Jesus",
+  "title": "Fête du Sacré-Cœur de Jésus",
   "href": "http://www.introibo.fr/Fete-du-Sacre-Coeur#inter2",
   "in": "Cogitationes",
   "inID": 1320,
@@ -2309,7 +2309,7 @@ gregorianPropers = {
   "coVerses": "Ps 88: 2-3, 6, 15-16, 18, 25, 29, 34-35"
  },
  "p3": {
-  "title": "3rd Sunday after Pentecost (formerly known as Sunday within the Octave of the Sacred Heart)",
+  "title": "3e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/3eme-Dimanche-apres-la-Pentecote",
   "in": "Respice in me",
   "inID": 1235,
@@ -2331,7 +2331,7 @@ gregorianPropers = {
   "coVerses": "Ps 31: 1-5, 7-8, 10-11"
  },
  "p4": {
-  "title": "4th Sunday after Pentecost",
+  "title": "4e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/4eme-Dimanche-apres-la-Pentecote",
   "in": "Dominus illuminatio",
   "inID": 874,
@@ -2353,7 +2353,7 @@ gregorianPropers = {
   "coVerses": "Ps 17: 4, 7, 28-30, 32-33, 36"
  },
  "p5": {
-  "title": "5th Sunday after Pentecost",
+  "title": "5e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/5eme-dimanche-apres-la-Pentecote",
   "in": "Exaudi Domine... adjutor",
   "inID": 396,
@@ -2375,7 +2375,7 @@ gregorianPropers = {
   "coVerses": "Ps 26: 1, 2-3, 9-10, 13-14"
  },
  "p6": {
-  "title": "6th Sunday after Pentecost",
+  "title": "6e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/6eme-dimanche-apres-la-Pentecote",
   "in": "Dominus fortitudo",
   "inID": 522,
@@ -2397,7 +2397,7 @@ gregorianPropers = {
   "coVerses": "Ps 26: 1-5"
  },
  "p7": {
-  "title": "7th Sunday after Pentecost",
+  "title": "7e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/7eme-dimanche-apres-la-Pentecote",
   "in": "Omnes gentes",
   "inID": 1136,
@@ -2419,7 +2419,7 @@ gregorianPropers = {
   "coVerses": "Ps 30: 2, 3, 6, 7-9, 20-21, 24-25"
  },
  "p8": {
-  "title": "8th Sunday after Pentecost",
+  "title": "8e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/8eme-dimanche-apres-la-Pentecote",
   "in": "Suscepimus",
   "inID": 1254,
@@ -2441,7 +2441,7 @@ gregorianPropers = {
   "coVerses": "Ps 33, 8"
  },
  "p9": {
-  "title": "9th Sunday after Pentecost",
+  "title": "9e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/9eme-dimanche-apres-la-Pentecote",
   "in": "Ecce Deus",
   "inID": 1357,
@@ -2463,7 +2463,7 @@ gregorianPropers = {
   "coVerses": "Ps 118: 1-2, 11, 49-50, 72, 103, 105, 162"
  },
  "p10": {
-  "title": "10th Sunday after Pentecost",
+  "title": "10e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/10eme-dimanche-apres-la-Pentecote",
   "in": "Dum clamarem",
   "inID": 299,
@@ -2485,7 +2485,7 @@ gregorianPropers = {
   "coVerses": "Ps 50: 3, 10, 12-15, 17, 19-20"
  },
  "p11": {
-  "title": "11th Sunday after Pentecost",
+  "title": "11e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/11eme-Dimanche-apres-la-Pentecote",
   "in": "Deus in loco sancto",
   "inID": 1026,
@@ -2507,7 +2507,7 @@ gregorianPropers = {
   "coVerses": "Ps 127"
  },
  "p12": {
-  "title": "12th Sunday after Pentecost",
+  "title": "12e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/12eme-Dimanche-apres-la-Pentecote",
   "in": "Deus in adjutorium",
   "inID": 501,
@@ -2529,7 +2529,7 @@ gregorianPropers = {
   "coVerses": "Ps 103: 1-2, 23-24, 30-31, 33-35"
  },
  "p13": {
-  "title": "13th Sunday after Pentecost",
+  "title": "13e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/13eme-Dimanche-apres-la-Pentecote",
   "in": "Respice Domine",
   "inID": 691,
@@ -2551,7 +2551,7 @@ gregorianPropers = {
   "coVerses": "Ps 77: 1-4, 23-25, 27, 29"
  },
  "p14": {
-  "title": "14th Sunday after Pentecost",
+  "title": "14e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/14eme-Dimanche-apres-la-Pentecote",
   "in": "Protector noster",
   "inID": 1071,
@@ -2573,7 +2573,7 @@ gregorianPropers = {
   "coVerses": "Ps 36: 1, 3, 16, 18-19, 23, 27-28, 29, 34"
  },
  "p15": {
-  "title": "15th Sunday after Pentecost",
+  "title": "15e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/15eme-Dimanche-apres-la-Pentecote",
   "in": "Inclina Domine",
   "inID": 1165,
@@ -2595,7 +2595,7 @@ gregorianPropers = {
   "coVerses": "Ps 110: 1-10"
  },
  "p16": {
-  "title": "16th Sunday after Pentecost",
+  "title": "16e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/16eme-Dimanche-apres-la-Pentecote",
   "in": "Miserere mihi... ad te",
   "inID": 335,
@@ -2617,7 +2617,7 @@ gregorianPropers = {
   "coVerses": "Ps 70: 1-2, 3, 5-6, 9, 12, 14, 23"
  },
  "p17": {
-  "title": "17th Sunday after Pentecost",
+  "title": "17e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/17eme-Dimanche-apres-la-Pentecote",
   "in": "Justus es Domine",
   "inID": 1284,
@@ -2639,7 +2639,7 @@ gregorianPropers = {
   "coVerses": "Ps 75: 2-4, 9-11"
  },
  "wed_ews": {
-  "title": "Wednesday in Ember week of September",
+  "title": "Mercredi des Quatre-Temps de septembre",
   "href": "http://www.introibo.fr/Mercredi-des-Quatre-Temps-de,452",
   "in": "Exsultate Deo",
   "inID": 1323,
@@ -2667,7 +2667,7 @@ gregorianPropers = {
   "coVerses": "Ps 80: 2-3, 5, 11, 17"
  },
  "fri_ews": {
-  "title": "Friday in Ember week of September",
+  "title": "Vendredi des Quatre-Temps de septembre",
   "href": "http://www.introibo.fr/Vendredi-des-Quatre-Temps-de,453",
   "in": "Laetetur cor",
   "inID": 864,
@@ -2685,7 +2685,7 @@ gregorianPropers = {
   "coVerses": "Ps 118: 1-2, 39, 45, 77, 99-100, 143"
  },
  "sat_ews": {
-  "title": "Saturday in Ember week of September",
+  "title": "Samedi des Quatre-Temps de septembre",
   "href": "http://www.introibo.fr/Samedi-des-Quatre-Temps-de,454",
   "in": "Venite adoremus",
   "inID": 450,
@@ -2724,7 +2724,7 @@ gregorianPropers = {
   "coVerses": "Ps 80: 2-3, 5, 11, 17"
  },
  "p18": {
-  "title": "18th Sunday after Pentecost",
+  "title": "18e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/18eme-Dimanche-apres-la-Pentecote",
   "in": "Da pacem",
   "inID": 172,
@@ -2745,7 +2745,7 @@ gregorianPropers = {
   "coVerses": "Ps 95, 1-8, 9-12"
  },
  "p19": {
-  "title": "19th Sunday after Pentecost",
+  "title": "19e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/19eme-Dimanche-apres-la-Pentecote",
   "in": "Salus populi",
   "inID": 389,
@@ -2767,7 +2767,7 @@ gregorianPropers = {
   "coVerses": "Ps 118: 1-3, 8-9, 26, 59-60, 134, 168"
  },
  "p20": {
-  "title": "20th Sunday after Pentecost",
+  "title": "20e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/20eme-Dimanche-apres-la-Pentecote",
   "in": "Omnia quae fecisti",
   "inID": 1056,
@@ -2789,7 +2789,7 @@ gregorianPropers = {
   "coVerses": "Ps 118: 1-2, 25, 28, 41, 74, 76, 81-82, 114"
  },
  "p21": {
-  "title": "21st Sunday after Pentecost",
+  "title": "21e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/21eme-Dimanche-apres-la-Pentecote",
   "in": "In voluntate",
   "inID": 1047,
@@ -2810,7 +2810,7 @@ gregorianPropers = {
   "coVerses": "Ps 118: 1, 41, 85, 87, 113, 123, 157, 161, 166, 174"
  },
  "p22": {
-  "title": "22nd Sunday after Pentecost",
+  "title": "22e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/22eme-Dimanche-apres-la-Pentecote",
   "in": "Si iniquitates",
   "inID": 1271,
@@ -2831,7 +2831,7 @@ gregorianPropers = {
   "coVerses": "Ps 16: 1-3, 5, 7-9, 15"
  },
  "p23": {
-  "title": "23rd Sunday after Pentecost",
+  "title": "23e Dimanche après la Pentecôte",
   "href": "http://www.introibo.fr/23eme-Dimanche-apres-la-Pentecote",
   "in": "Dicit Dominus : Ego",
   "inID": 735,
