@@ -559,6 +559,10 @@ text[source-index].active {
   box-sizing: border-box;
 }
 
+.sel-style.small-screen {
+  margin: 6px 1px !important;
+}
+
 body.sans > .right.hide-print:has(> #selStyle) {
   width: 100%;
   box-sizing: border-box;
@@ -567,6 +571,19 @@ body.sans > .right.hide-print:has(> #selStyle) {
 .hide-print.block {
   border: none !important;
 }
+
+  .pdf-export-control {
+    display: none !important;
+  }
+
+.toggleShowGabc.hide-ss {
+    display: none !important;
+  }
+
+.hide-ss {
+    font-size: 20px;
+    margin-top: 8px;
+  }
 
 @media screen and (max-width: 570px) {
   .menu {
@@ -581,10 +598,6 @@ body.sans > .right.hide-print:has(> #selStyle) {
 @media screen and (max-width: 768px) {
   body.sans {
     padding: 12px 12px 84px !important;
-  }
-
-  .pdf-export-control {
-    display: none !important;
   }
 
   .hide-print:first-of-type {
