@@ -11,7 +11,7 @@ var selDay,selTempus='',selPropers,selOrdinaries={},selCustom={},sel={
   kyrie:{},
   gloria:{},
   credo:{},
-  preface:{},
+  préface:{},
   sanctus:{},
   agnus:{},
   ite:{}
@@ -1225,7 +1225,7 @@ $(function(){
     addToHash('tempus', selTempus);
     updateDay();
   };
-  var ordinaryParts = ['asperges','kyrie','gloria','credo','preface','sanctus','agnus','ite'];
+  var ordinaryParts = ['asperges','kyrie','gloria','credo','préface','sanctus','agnus','ite'];
   var selectedOrdinary = function(e){
     selOrdinary = $(this).val();
     addToHash('ordinary', selOrdinary);
@@ -1281,13 +1281,13 @@ $(function(){
         }
         return result;
       }, []));
-      var labelArray = [massName, 'Ad Libitum', 'Masses'];
+      var labelArray = [massName, 'Ad Libitum', 'Messes'];
       if(selectedPart.length == 0) {
         // move the Masses ahead of the ad libitum parts:
         options.splice(1,0,options.pop());
         labelArray.splice(1,0,labelArray.pop());
       } else {
-        labelArray[2] = 'Other Masses';
+        labelArray[2] = 'Autres Messes';
       }
       options.forEach(function(optGroup, index){
         if(optGroup.length == 0) return;
@@ -1305,7 +1305,7 @@ $(function(){
         });
         $optGroup.appendTo($select);
       });
-      if(part == 'asperges' || part == 'preface' || part == 'credo') {
+      if(part == 'asperges' || part == 'préface' || part == 'credo') {
         $select.val(selectVal);
       }
       if(selPropers) {
